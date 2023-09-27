@@ -1,0 +1,1661 @@
+[
+    {
+        "keyuuid": "7f191d53",
+        "table": "PNT_Person",
+        "column": [
+            {
+                "Order": 1,
+                "Name": "PersonID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 2,
+                "Name": "PersonCode",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 3,
+                "Name": "PersonCardID",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 4,
+                "Name": "InitialID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 5,
+                "Name": "FnameT",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 6,
+                "Name": "LnameT",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 7,
+                "Name": "FnameE",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 8,
+                "Name": "LnameE",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 9,
+                "Name": "FnameO",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 10,
+                "Name": "LnameO",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 11,
+                "Name": "Cmb1ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 12,
+                "Name": "Cmb2ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 13,
+                "Name": "Cmb3ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 14,
+                "Name": "Cmb4ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 15,
+                "Name": "Cmb5ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 16,
+                "Name": "cmb6ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 17,
+                "Name": "cmb7ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 18,
+                "Name": "cmb8ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 19,
+                "Name": "cmb9ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 20,
+                "Name": "cmb10ID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 21,
+                "Name": "PositionID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 22,
+                "Name": "EmpTypeID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 23,
+                "Name": "TypeProcessSalary",
+                "Type": "nvarchar",
+                "Character": 1,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 24,
+                "Name": "JGID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 25,
+                "Name": "ContractID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 26,
+                "Name": "ContractBegin",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 27,
+                "Name": "ContractExpire",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 28,
+                "Name": "BirthDate",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 29,
+                "Name": "StartDate",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 30,
+                "Name": "PassDate",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 31,
+                "Name": "numProof",
+                "Type": "int",
+                "Character": null,
+                "Numeric": 10,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 32,
+                "Name": "EndDate",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 33,
+                "Name": "WorkOld",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 34,
+                "Name": "TaxID",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 35,
+                "Name": "SSFID",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 36,
+                "Name": "HospitalID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 37,
+                "Name": "ContactNo",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 38,
+                "Name": "IdentityID",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 39,
+                "Name": "IdentityExpire",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 40,
+                "Name": "PFID",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 41,
+                "Name": "SexID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 42,
+                "Name": "LevelID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 43,
+                "Name": "CompanyID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 44,
+                "Name": "ChkNation",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 45,
+                "Name": "PassportID",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 46,
+                "Name": "PassportPlace",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 47,
+                "Name": "PassportStart",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 48,
+                "Name": "PassportExpire",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 49,
+                "Name": "PassportMemo",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 50,
+                "Name": "VisaID",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 51,
+                "Name": "VisaPlace",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 52,
+                "Name": "VisaStart",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 53,
+                "Name": "VisaExpire",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 54,
+                "Name": "VisaMemo",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 55,
+                "Name": "AwworkID",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 56,
+                "Name": "AwworkPlace",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 57,
+                "Name": "AwworkStart",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 58,
+                "Name": "AwworkExpire",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 59,
+                "Name": "AwworkMemo",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 60,
+                "Name": "CurrentAddress",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 61,
+                "Name": "CurrentAddressE",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 62,
+                "Name": "CurrentAddressO",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 63,
+                "Name": "CurrentBuilding",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 64,
+                "Name": "CurrentBuildingE",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 65,
+                "Name": "CurrentBuildingO",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 66,
+                "Name": "CurrentSoi",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 67,
+                "Name": "CurrentSoiE",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 68,
+                "Name": "CurrentSoiO",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 69,
+                "Name": "CurrentRoad",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 70,
+                "Name": "CurrentRoadE",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 71,
+                "Name": "CurrentRoadO",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 72,
+                "Name": "CurrentDistric",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 73,
+                "Name": "CurrentAmphur",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 74,
+                "Name": "CurrentProvince",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 75,
+                "Name": "CurrentPostID",
+                "Type": "nvarchar",
+                "Character": 7,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 76,
+                "Name": "CurrentTel",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 77,
+                "Name": "CurrentNation",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 78,
+                "Name": "CurrentZone",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 79,
+                "Name": "CardAddress",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 80,
+                "Name": "CardAddressE",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 81,
+                "Name": "CardAddressO",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 82,
+                "Name": "CardBuilding",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 83,
+                "Name": "CardBuildingE",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 84,
+                "Name": "CardBuildingO",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 85,
+                "Name": "CardSoi",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 86,
+                "Name": "CardSoiE",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 87,
+                "Name": "CardSoiO",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 88,
+                "Name": "CardRoad",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 89,
+                "Name": "CardRoadE",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 90,
+                "Name": "CardRoadO",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 91,
+                "Name": "CardDistric",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 92,
+                "Name": "CardAmphur",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 93,
+                "Name": "CardProvince",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 94,
+                "Name": "CardPostID",
+                "Type": "nvarchar",
+                "Character": 7,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 95,
+                "Name": "CardTel",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 96,
+                "Name": "CardNation",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 97,
+                "Name": "CardZone",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 98,
+                "Name": "MateFname",
+                "Type": "varchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 99,
+                "Name": "MateLname",
+                "Type": "varchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 100,
+                "Name": "MateInitial",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 101,
+                "Name": "MateAddress",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 102,
+                "Name": "MateAlive",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 103,
+                "Name": "MateOccupation",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 104,
+                "Name": "MatePosition",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 105,
+                "Name": "MateTel",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 106,
+                "Name": "MateSSF",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 107,
+                "Name": "MateTax",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 108,
+                "Name": "MateIdentity",
+                "Type": "nvarchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 109,
+                "Name": "MateBirth",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 110,
+                "Name": "numChild",
+                "Type": "tinyint",
+                "Character": null,
+                "Numeric": 3,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 111,
+                "Name": "numSon",
+                "Type": "tinyint",
+                "Character": null,
+                "Numeric": 3,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 112,
+                "Name": "numDaughter",
+                "Type": "tinyint",
+                "Character": null,
+                "Numeric": 3,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 113,
+                "Name": "FatherName",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 114,
+                "Name": "FatherAddress",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 115,
+                "Name": "FatherOccupation",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 116,
+                "Name": "FatherTel",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 117,
+                "Name": "FatherAge",
+                "Type": "tinyint",
+                "Character": null,
+                "Numeric": 3,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 118,
+                "Name": "FatherAlive",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 119,
+                "Name": "FatherIden",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 120,
+                "Name": "FatherBirth",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 121,
+                "Name": "PositionMother",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 122,
+                "Name": "MotherName",
+                "Type": "nvarchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 123,
+                "Name": "MotherAddress",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 124,
+                "Name": "MotherOccupation",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 125,
+                "Name": "MotherTel",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 126,
+                "Name": "MotherAlive",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 127,
+                "Name": "MotherIden",
+                "Type": "nvarchar",
+                "Character": 55,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 128,
+                "Name": "MotherBirth",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 129,
+                "Name": "PositionFather",
+                "Type": "nvarchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 130,
+                "Name": "WedStatus",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 131,
+                "Name": "PosSon",
+                "Type": "tinyint",
+                "Character": null,
+                "Numeric": 3,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 132,
+                "Name": "numMen",
+                "Type": "tinyint",
+                "Character": null,
+                "Numeric": 3,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 133,
+                "Name": "numWomen",
+                "Type": "tinyint",
+                "Character": null,
+                "Numeric": 3,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 134,
+                "Name": "YearMarital",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 135,
+                "Name": "AmphurMarital",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 136,
+                "Name": "ProvMarital",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 137,
+                "Name": "MateAmphur",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 138,
+                "Name": "MateProv",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 139,
+                "Name": "Salary",
+                "Type": "varbinary",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 140,
+                "Name": "ChkDeletePerson",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 141,
+                "Name": "ResignStatus",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 142,
+                "Name": "PersonPic",
+                "Type": "image",
+                "Character": 2147483647,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 143,
+                "Name": "BureID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 144,
+                "Name": "BureExpire",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 145,
+                "Name": "DateIn1",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 146,
+                "Name": "DateIn2",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 147,
+                "Name": "DateIn3",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 148,
+                "Name": "DateIn4",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 149,
+                "Name": "DateIn5",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 150,
+                "Name": "DateIn6",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 151,
+                "Name": "DateIn7",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 152,
+                "Name": "DateIn8",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 153,
+                "Name": "DateIn9",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 154,
+                "Name": "DateIn10",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 155,
+                "Name": "DateInPos",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 156,
+                "Name": "DateInLevel",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 157,
+                "Name": "DateInContract",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 158,
+                "Name": "DateInEmpType",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 159,
+                "Name": "DateInTypeProcess",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 160,
+                "Name": "Comment",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 161,
+                "Name": "ImportStatus",
+                "Type": "nvarchar",
+                "Character": 1,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 162,
+                "Name": "commanderID",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 163,
+                "Name": "LastChang_Date",
+                "Type": "datetime",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": 3,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 164,
+                "Name": "UserName",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 165,
+                "Name": "Login_By",
+                "Type": "nvarchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            }
+        ],
+        "primary": [
+            "PersonID"
+        ]
+    }
+]

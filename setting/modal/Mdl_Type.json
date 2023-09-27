@@ -1,0 +1,42 @@
+{
+
+    "name":"Mdl_Type",
+    "tableTo": "TNM_Type_Patern",
+    "tableFor": "TN_Type_Patern",
+    "typeColumn":"GUID",
+    "columnTo": {
+        "name":"GUID_Type_Patern",
+        "type":"GUID"
+    },
+    "columnFor" : {
+        "name":"TN_Type_PaternID",
+        "type":"Decimal"
+    },
+    "foreigns":[
+    ],
+    "matchings":[
+        {
+            "column":"TN_Type_PaternName",
+            "columnTo":"Type_PaternNameT",
+            "option": {
+                "duplicate":true
+            }
+        },
+        {
+            "column":"TN_Type_PaternID",
+            "option": {
+                "duplicate":false
+            }
+        }
+    ],
+    "entraps":[
+        "TN_Type_PaternID",
+        "Type_PaternID"
+    ],
+    "additions": [
+        {
+            "column":"TN_Type_PaternName",
+            "columnTo":"Type_PaternNameT"
+        }
+    ]
+}

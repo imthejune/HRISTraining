@@ -1,0 +1,50 @@
+{
+
+    "name":"Mdl_GroupCourse",
+    "tableTo": "TNM_GroupCourse",
+    "tableFor": "TN_GroupCourse",
+    "typeColumn":"GUID",
+    "columnTo": {
+        "name":"GUID_Group",
+        "type":"GUID"
+    },
+    "columnFor" : {
+        "name":"Group_ID",
+        "type":"Decimal"
+    },
+    "foreigns":[
+    ],
+    "matchings":[
+        {
+            "column":"Group_Name",
+            "columnTo":"Group_NameT",
+            "option": {
+                "duplicate":true
+            }
+        },
+        {
+            "column":"Group_ID",
+            "option": {
+                "duplicate":false
+            }
+        }
+    ],
+    "entraps":[
+        "Group_ID"
+    ],
+    "transections":[],
+    "additions": [
+        {
+            "column":"Group_Name",
+            "columnTo":"Group_NameT"
+        }
+    ],
+    "defaultvals": [
+        {
+            "column":"CompanyID",
+            "value":"1"
+        }
+    ]
+
+
+}

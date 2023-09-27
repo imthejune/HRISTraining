@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HtmlTextBox3.Value" xml:space="preserve">
+    <value>&lt;p class="MsoNormal" style="margin: 0in 0in 8pt"&gt;&lt;span style="font-family: wingdings; mso-ascii-font-family: calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: calibri; mso-hansi-theme-font: minor-latin; mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="font-size: 16px"&gt;ü&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="HtmlTextBox5.Value" xml:space="preserve">
+    <value>&lt;p class="MsoNormal" style="margin: 0in 0in 8pt"&gt;&lt;span style="font-family: wingdings; mso-ascii-font-family: calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: calibri; mso-hansi-theme-font: minor-latin; mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="font-size: 16px"&gt;ü&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="HtmlTextBox6.Value" xml:space="preserve">
+    <value>&lt;p class="MsoNormal" style="margin: 0in 0in 8pt"&gt;&lt;span style="font-family: wingdings; mso-ascii-font-family: calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: calibri; mso-hansi-theme-font: minor-latin; mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="font-size: 16px"&gt;ü&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="lbl_b9.Value" xml:space="preserve">
+    <value>10.9 ค่าวัสดุ เครื่องมือต่างๆ ที่จะใช้ในการฝึกอบรมฝีมือแรงงาน จะต้องมีลักษณะการใช้สอดคล้องกับเนื้อหาวิชาในหลักสูตรนั้นๆ ทั้งนี้
+       วัสดุ เครื่องมือ ดังกล่าวจะต้องไม่ปะปนกับที่ใช้ในการประกอบกิจการตามปกติ ของผู้ขอรับความเห็นชอบ โดยต้องระบุรายการ
+       จำนวนและราคาของวัสดุ เครื่องมือนั้นให้ชัดเจน
+</value>
+  </data>
+  <data name="lbl_b8.Value" xml:space="preserve">
+    <value>10.8 ค่าจัดทำหรือค่าเช่าสื่อการฝึกอบรม ได้แก่ สื่อในลักษณะแผ่นโปร่งใส เทปเสียง เทปวีดีโอ ซีดี วีซีดี ดีวีดี ซีดี-รอม แผ่นภาพ สไลด์และ
+       รวมถึงชุดทดลอง ชุดสาธิต หุ่นจำลอง ที่ไม่มีลักษณะคงสภาพเข้าข่ายเป็นการลงทุน ในกรณีเช่าสื่อการฝึกอบรม จะต้องมีระยะเวลา
+       เช่าที่แน่นอนและสอดคล้องกับหลักสูตรจัดฝึกอบรม</value>
+  </data>
+  <data name="HtmlTextBox4.Value" xml:space="preserve">
+    <value>&lt;p class="MsoNormal" style="margin: 0in 0in 8pt"&gt;&lt;span style="font-family: wingdings; mso-ascii-font-family: calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: calibri; mso-hansi-theme-font: minor-latin; mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="font-size: 16px"&gt;ü&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="HtmlTextBox1.Value" xml:space="preserve">
+    <value>&lt;p class="MsoNormal" style="margin: 0in 0in 8pt"&gt;&lt;span style="font-family: wingdings; mso-ascii-font-family: calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: calibri; mso-hansi-theme-font: minor-latin; mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="font-size: 16px"&gt;ü&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="lbl_Reason2.Value" xml:space="preserve">
+    <value>1. กรณีหลักฐานค่าใช้จ่ายที่ออกโดยร้านค้า หรือนิติบุคคลได้แก่ใบเสร็จรับเงิน หรือใบกำกับภาษีที่มีรายการถูกต้องสมบูรณ์ระบุ ชื่อหลักสูตร / รุ่น / วันที่อบรม / 
+    จำนวนเงินให้ชัดเจน (กรณีใบเสร็จรับเงินของโรงแรมหรือสถานฝึกอบรมฝีมือแรงงานที่ผู้ดำเนินการจ้างฝึกอบรมให้แนบใบแสดงรายละเอียดค่าใช้จ่าย ค่าที่พัก
+    และอาหารประกอบด้วย)</value>
+  </data>
+  <data name="HtmlTextBox2.Value" xml:space="preserve">
+    <value>&lt;p class="MsoNormal" style="margin: 0in 0in 8pt"&gt;&lt;span style="font-family: wingdings; mso-ascii-font-family: calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: calibri; mso-hansi-theme-font: minor-latin; mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="font-size: 16px"&gt;ü&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="HtmlTextBox7.Value" xml:space="preserve">
+    <value>&lt;p class="MsoNormal" style="margin: 0in 0in 8pt"&gt;&lt;span style="font-family: wingdings; mso-ascii-font-family: calibri; mso-ascii-theme-font: minor-latin; mso-hansi-font-family: calibri; mso-hansi-theme-font: minor-latin; mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="mso-char-type: symbol; mso-symbol-font-family: wingdings"&gt;&lt;span style="font-size: 16px"&gt;ü&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="SqlDataSource1.SelectCommand" xml:space="preserve">
+    <value>select CONVERT(VARCHAR(50), TNT_SubFyfp.GUID_Ref) AS GUID_Ref
+,  CONVERT(VARCHAR(50), TNT_SubFyfp.GUID_Fyfp) AS GUID_Fyfp 
+,RefName,TNT_SubFyfp.Patern_N,TrainDay_TotalHour
+,a1,a2,a3,a4,a5,a6,TrainDay_Min from TNT_SubFyfp
+left join TNT_FyfpTrain on TNT_FyfpTrain.GUID_fyfp_Sub = TNT_SubFyfp.GUID_fyfp_Sub</value>
+  </data>
+  <metadata name="$this.Zoom" type="System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1.5</value>
+  </metadata>
+  <metadata name="$this.ShowSnapGrid" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.SnapToGrid" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.SnapToSnapLines" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+</root>

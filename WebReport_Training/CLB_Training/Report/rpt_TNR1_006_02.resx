@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SqlDataSource1.SelectCommand" xml:space="preserve">
+    <value>
+select	Cmb10Code,Cmb10NameT,Cmb4Code,Cmb4NameT, InitialT as Initial,
+			ROW_NUMBER() OVER(PARTITION BY PersonCode ORDER BY PNT_Person.PersonID) as n,
+			PNT_Person.PersonCode,FnameT as Fname,LnameT as Lname ,StartDate,TNM_Patern_ReF.PaternRef_NameT as RefName,
+			Group_NameT as GroupName,Patern_N,PNM_Position.PositionNameT as PositionName ,PNM_Cmb1.Cmb1NameT as Cmb1Name,
+			PNM_Cmb2.Cmb2NameT as Cmb2Name,'' as CompanyName,TNT_TrainDay.TrainDay_Date,TNT_TrainDay.TrainDay_End ,writeby,
+			Checkby,daywrite,Type_CourseID,TNT_TrainDay.TrainDay_TotalHour,TNT_TrainDay.TrainDay_Note,'T' as Lang,Patern_Date ,month(Patern_Date) as m,year(Patern_Date) as y
+from PNT_Person 
+left join TNT_TrainPerson on TNT_TrainPerson.PersonID = pnt_person.PersonID 
+left join TNT_TrainDay on TNT_TrainDay.GUID_Train = TNT_TrainPerson.GUID_Train 
+left join TNT_Patern_Course on TNT_TrainDay.GUID_Patern = TNT_Patern_Course.GUID_Patern 
+left join TNM_Patern_ReF on TNM_Patern_ReF.GUID_Ref = TNT_Patern_Course.GUID_Ref 
+left join PNM_Position on PNM_Position.PositionID = PNT_Person.PositionID 
+left join PNM_Initial on PNM_Initial.InitialID = PNT_Person.InitialID 
+left join PNM_Cmb1 on PNM_Cmb1.Cmb1ID = PNT_Person.Cmb1ID 
+left join PNM_Cmb2 on PNM_Cmb2.Cmb2ID = PNT_Person.Cmb2ID 
+left join PNM_Cmb3 on PNM_Cmb3.Cmb3ID = PNT_Person.Cmb3ID 
+left join PNM_Cmb4 on PNM_Cmb4.Cmb4ID = PNT_Person.Cmb4ID 
+left join PNM_Cmb5 on PNM_Cmb5.Cmb5ID = PNT_Person.Cmb2ID 
+left join PNM_Cmb6 on PNM_Cmb6.Cmb6ID = PNT_Person.Cmb6ID 
+left join PNM_Cmb7 on PNM_Cmb7.Cmb7ID = PNT_Person.Cmb7ID 
+left join PNM_Cmb8 on PNM_Cmb8.Cmb8ID = PNT_Person.Cmb8ID 
+left join PNM_Cmb9 on PNM_Cmb9.Cmb9ID = PNT_Person.Cmb9ID 
+left join PNM_Cmb10 on PNM_Cmb10.Cmb10ID = PNT_Person.Cmb10ID 
+left join TNM_TypeCourse on TNM_TypeCourse.GUID_Type = TNT_Patern_Course.GUID_Type 
+left join TNM_GroupCourse on TNM_GroupCourse.GUID_Group = TNT_Patern_Course.GUID_Group 
+where TNT_TrainDay.GUID_Train is not null  
+order by PNT_Person.PersonID</value>
+  </data>
+  <metadata name="$this.Zoom" type="System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1.5</value>
+  </metadata>
+</root>

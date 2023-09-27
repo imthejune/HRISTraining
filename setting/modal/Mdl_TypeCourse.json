@@ -1,0 +1,34 @@
+{
+
+    "name":"Mdl_TypeCourse",
+    "tableTo": "TNM_TypeCourse",
+    "tableFor": "TN_Type_Course",
+    "typeColumn":"GUID",
+    "columnTo": {
+        "name":"GUID_Type",
+        "type":"GUID"
+    },
+    "columnFor" : {
+        "name":"Type_CourseID",
+        "type":"Decimal"
+    },
+    "foreigns":[
+    ],
+    "matchings":[
+        {
+            "column":"Type_CourseID",
+            "option": {
+                "duplicate":false
+            }
+        }
+    ],
+    "entraps":[
+        "Type_CourseID"
+    ],
+    "additions": [
+        {
+            "column":"Type_CourseNameT",
+            "columnTo":"Type_CourseNameT"
+        }
+    ]
+}

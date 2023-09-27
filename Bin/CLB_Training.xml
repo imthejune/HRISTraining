@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CLB_Training
+</name>
+</assembly>
+<members>
+<member name="T:CLB_Training.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CLB_Training.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CLB_Training.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CLB_Training.connExecute.CommandText(System.String)">
+ <summary>
+ เปลี่ยน sql
+ </summary>
+ <param name="xSql"></param>
+ <remarks>
+ cExecute.sqlStr="update ADM_UserPws setPws=?"
+ cExecute.CommandText()
+ หรือ cExecute.CommandText("xxxxxx")
+ </remarks>
+</member>
+<member name="M:CLB_Training.connExecute.GetDataTable(System.String,System.Data.Common.DbParameter[],System.Data.CommandBehavior)">
+ <summary>
+ เหมือนใน mydatat
+ </summary>
+ <param name="xSql"></param>
+ <param name="xParameter"></param>
+ <param name="xBehavior"></param>
+ <returns></returns>
+ <remarks>
+ Dim pPersonID = da.CreateParameter("Personid", DbType.Decimal)
+ Dim pWorkDay = da.CreateParameter("WorkDay", DbType.DateTime, workday)
+ Dim param() As System.Data.Common.DbParameter = New System.Data.Common.DbParameter() { _
+ pPersonID, pWorkDay}
+ Dim dtCal = da.GetDataTable(Sql, xParameter:=param)
+ กรณีจะเปลี่ยน parameter-----------
+ pPersonID.Value = dr("PersonID")
+ </remarks>
+</member>
+<member name="M:CLB_Training.connExecute.ExecuteReader(System.String,System.Data.Common.DbParameter[],System.Data.CommandBehavior)">
+ <summary>
+ แบบ Advance เอา Command ไปสร้างเองดีกว่า
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:CLB_Training.connExecute.sqlParameter(System.String)">
+ <summary>
+ cExecute.sqlParameter("NV;NM;B;NV;D;D;NV;NV")
+ </summary>
+ <param name="xtype"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

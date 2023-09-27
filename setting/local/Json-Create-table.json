@@ -1,0 +1,6935 @@
+[
+  {
+    "keyuuid": "950b8b91",
+    "table": "TNM_Course",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Course_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Course",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Course_Code",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Course_NameT",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Course_NameE",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Course_NameO",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "CompanyID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 30,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "GUID_Group",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Course"
+    ]
+  },
+  {
+    "keyuuid": "3fafd90b",
+    "table": "TNM_Expenses",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ExpensesID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "ExpensesTextT",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "ExpensesTextE",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ExpensesID"
+    ]
+  },
+  {
+    "keyuuid": "145f337e",
+    "table": "TNM_FileType",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_FileType",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "TnameT",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "TnameE",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "TnameO",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "chkCourse",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "chkPerson",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": []
+  },
+  {
+    "keyuuid": "3ebc70dd",
+    "table": "TNM_GroupCourse",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Group_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Group",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Group_Code",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Group_NameT",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Group_NameE",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Group_NameO",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "CompanyID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 30,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Group"
+    ]
+  },
+  {
+    "keyuuid": "1d57ff32",
+    "table": "TNM_InstitueTrain",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "InstitueTrainID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Institue",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "InstitueTrainNameT",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "InstitueTrainNameE",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "InstitueTrainNameO",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "InstitueTrainTel",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "InstitueTrainAddress",
+        "Type": "varchar",
+        "Character": 1500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "InstitueTrainConPerson",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Institue"
+    ]
+  },
+  {
+    "keyuuid": "3759449c",
+    "table": "TNM_Organize",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Organize_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Organize",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Organize_NameT",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Organize_NameE",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Organize_NameO",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Organize_Tel",
+        "Type": "varchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Organize_Address",
+        "Type": "varchar",
+        "Character": 2000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "Organize_Detail",
+        "Type": "varchar",
+        "Character": 2000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "Organize_Reason",
+        "Type": "varchar",
+        "Character": 2000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "Organize_Fax",
+        "Type": "varchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "Organize_ConPerson",
+        "Type": "varchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "Organize_Code",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Organize"
+    ]
+  },
+  {
+    "keyuuid": "a9743350",
+    "table": "TNM_Patern_ReF",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "PaternRef_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "PaternRef_Code",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "PaternRef_NameT",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "PaternRef_NameE",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "PaternRef_NameO",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "CompanyID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "GUID_Course",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Ref"
+    ]
+  },
+  {
+    "keyuuid": "479295d2",
+    "table": "TNM_Professor",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Professor_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Professor",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Professor_Code",
+        "Type": "varchar",
+        "Character": 1500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Professor_NameT",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Professor_NameE",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Professor_NameO",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Professor_Tel",
+        "Type": "varchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "Professor_Education",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "Professor_Detail",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "Professor_Institue",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "Professor_Institue1",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "Professor_Address",
+        "Type": "varchar",
+        "Character": 1500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "Professor_Reason",
+        "Type": "varchar",
+        "Character": 1500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "Professor_Position",
+        "Type": "varchar",
+        "Character": 1500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "Professor_Skill",
+        "Type": "varchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "Professor_Fax",
+        "Type": "varchar",
+        "Character": 18,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "Professor_ConPerson",
+        "Type": "varchar",
+        "Character": 2000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "Comeout",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "Professor_Workplace",
+        "Type": "varchar",
+        "Character": 1500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Professor"
+    ]
+  },
+  {
+    "keyuuid": "ffddca0e",
+    "table": "TNM_TmpPass",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Tmp_PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "Tmp_PassNameT",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Tmp_PassNameE",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Tmp_PassNameO",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "Tmp_PersonID"
+    ]
+  },
+  {
+    "keyuuid": "2193bdad",
+    "table": "TNM_Type_Patern",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Type_PaternID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Type_Patern",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Type_PaternNameT",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Type_PaternNameE",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Type_PaternNameO",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Type_Patern"
+    ]
+  },
+  {
+    "keyuuid": "cf4a2b66",
+    "table": "TNM_TypeCourse",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Type_CourseID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Type",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Type_CourseNameT",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Type_CourseNameE",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Type_CourseNameO",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Type"
+    ]
+  },
+  {
+    "keyuuid": "1a3d581c",
+    "table": "TNT_ftfy1text",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "TT1",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "t1",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "t2",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "t3",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "t4",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "t5",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "t6",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "t7",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "t8",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "t9",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "t10",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "Companyid",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "TL1",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "TL2",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "C1",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "C2",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "C3",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "TL3",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "TL4",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 20,
+        "Name": "TL5",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 21,
+        "Name": "TL6",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 22,
+        "Name": "TL7",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 23,
+        "Name": "Tiso",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 24,
+        "Name": "Tmoo",
+        "Type": "varchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 25,
+        "Name": "No",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 26,
+        "Name": "Person22",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 27,
+        "Name": "Person3",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "Companyid"
+    ]
+  },
+  {
+    "keyuuid": "79366bc3",
+    "table": "TNT_Fyfp22",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "ROW_NO",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "PaternRef_Name",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Patern_Date",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Patern_End",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Patern_Hour",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "InstitueTrainName",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "Patern_N",
+        "Type": "nvarchar",
+        "Character": 5,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "PersonCardID",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "PersonName",
+        "Type": "nvarchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "PositionName",
+        "Type": "nchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "Patern_Exp",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "ApprovePerson",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "ApproveMale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "ApproveFemale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "2840898e",
+    "table": "TNT_FyfpPerson",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_fyfp_Person",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Status",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Remark",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "PersonName",
+        "Type": "nvarchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "PersonPosition",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "d9ad54ac",
+    "table": "TNT_FyfpProfessor",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_fyfp_Professor",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "GUID_Professor",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Professor_Name",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Professor_Position",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Professor_Institue",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "9172f526",
+    "table": "TNT_FyfpQualification",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Qualification",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Qualification_Name",
+        "Type": "nvarchar",
+        "Character": 300,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Qualification_N",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "CompanyID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": []
+  },
+  {
+    "keyuuid": "87be5064",
+    "table": "TNT_FyfpSendPerson",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "TrainDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Evatr1",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": 2
+      },
+      {
+        "Order": 7,
+        "Name": "Evatr2",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": 2
+      },
+      {
+        "Order": 8,
+        "Name": "Evatr3",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": 2
+      },
+      {
+        "Order": 9,
+        "Name": "Evatr4",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": 2
+      },
+      {
+        "Order": 10,
+        "Name": "Evatr5",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": 2
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "9e17b777",
+    "table": "TNT_FyfpTrain",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_fyfp_TrainDay",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "TrainDay_N",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "TrainDay_Date",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "TrainDay_End",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "TrainDay_Time",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "TrainDay_EndTime",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "TrainDay_Hour",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "TrainDay_Min",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "TrainDay_TotalHour",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "Type_CourseID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "Patern_Name",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "Patern_N",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "e30a4a16",
+    "table": "TNT_FyfpTrainPerson",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_FyfpTrainPerson",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "GUID_Train",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Tmp_status",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "PersonName",
+        "Type": "nvarchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "PersonPosition",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "PersonCardID",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "183b67e5",
+    "table": "TNT_FyfpVt",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Vt_Name",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Vt_N",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": []
+  },
+  {
+    "keyuuid": "992ea78d",
+    "table": "TNT_FyfpVttopic",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Vt",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Vt_N",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Vt_Header",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Vt_Name",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Vt_Hour",
+        "Type": "varchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "Add_Status",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "8e483dee",
+    "table": "TNT_Patern_Course",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Patern_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Patern",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Patern_Date",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Patern_End",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Patern_NameT",
+        "Type": "varchar",
+        "Character": 249,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Patern_NameE",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "Patern_NameO",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "Patern_N",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "Patern_Point",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "Patern_PointPass",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "Patern_Reason",
+        "Type": "varchar",
+        "Character": 5000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "Patern_Budget",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "Patern_Hour",
+        "Type": "varchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "Patern_Time",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "Patern_EndTime",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "GUID_Course",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "Patern_Code",
+        "Type": "varchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "Patern_Datealarm",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 20,
+        "Name": "GUID_Type_Patern",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 21,
+        "Name": "GUID_Organize",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 22,
+        "Name": "GUID_Institue",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 23,
+        "Name": "GUID_Group",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 24,
+        "Name": "GUID_Type",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 25,
+        "Name": "CompanyID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 30,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 26,
+        "Name": "Trainstatus",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 27,
+        "Name": "Tmp_PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 30,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 28,
+        "Name": "Patern_descrition",
+        "Type": "varchar",
+        "Character": 5000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 29,
+        "Name": "c",
+        "Type": "varchar",
+        "Character": 30,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 30,
+        "Name": "daywrite",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 31,
+        "Name": "writeby",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 32,
+        "Name": "Writebyposi",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 33,
+        "Name": "Trainpasspoint",
+        "Type": "varchar",
+        "Character": 20,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 34,
+        "Name": "Checkby",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 35,
+        "Name": "Stastusposi",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 36,
+        "Name": "writeby6",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 37,
+        "Name": "writeby7",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 38,
+        "Name": "writeby8",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 39,
+        "Name": "pergg",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 40,
+        "Name": "showweb",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 41,
+        "Name": "Ftfy1",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 42,
+        "Name": "Ftfy2",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 43,
+        "Name": "F12",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 44,
+        "Name": "b1",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 45,
+        "Name": "b2",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 46,
+        "Name": "b3",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 47,
+        "Name": "b4",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 48,
+        "Name": "b5",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 49,
+        "Name": "b6",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 50,
+        "Name": "b7",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 51,
+        "Name": "b8",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 52,
+        "Name": "b9",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 53,
+        "Name": "b10",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 54,
+        "Name": "b11",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 55,
+        "Name": "b12",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 56,
+        "Name": "b13",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 57,
+        "Name": "b14",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 58,
+        "Name": "b15",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 59,
+        "Name": "b16",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 60,
+        "Name": "b17",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 61,
+        "Name": "b18",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 62,
+        "Name": "bid",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 63,
+        "Name": "mixsee",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 64,
+        "Name": "Chkretrain",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 65,
+        "Name": "reday",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 66,
+        "Name": "redate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 67,
+        "Name": "Lasttraindate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 68,
+        "Name": "Lasttrain",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 69,
+        "Name": "host_orga",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 70,
+        "Name": "b111",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 71,
+        "Name": "b112",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 72,
+        "Name": "b113",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 73,
+        "Name": "b114",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 74,
+        "Name": "b115",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 75,
+        "Name": "b116",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 76,
+        "Name": "b117",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 77,
+        "Name": "b118",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 78,
+        "Name": "b119",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 79,
+        "Name": "b1110",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 80,
+        "Name": "b1111",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 81,
+        "Name": "b1112",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 82,
+        "Name": "b1113",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 83,
+        "Name": "b1114",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 84,
+        "Name": "b1115",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 85,
+        "Name": "b1116",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 86,
+        "Name": "b1117",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 87,
+        "Name": "patern_codeold",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 88,
+        "Name": "Rnum",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 89,
+        "Name": "HRcancelcret",
+        "Type": "varchar",
+        "Character": 5000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 90,
+        "Name": "TRanferdel",
+        "Type": "varchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 91,
+        "Name": "patern_Degree",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 92,
+        "Name": "Tmp_DSD",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Patern"
+    ]
+  },
+  {
+    "keyuuid": "8a1b1b13",
+    "table": "TNT_Patern_Professor",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Patern_Professor_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_PaternPro",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Patern_ProfessorN",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "GUID_Patern",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "GUID_Professor",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Year",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "one12",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "GUID_Course",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_PaternPro"
+    ]
+  },
+  {
+    "keyuuid": "fdbb90e8",
+    "table": "TNT_PercentGrade",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Percent_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "Grade",
+        "Type": "varchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Tmp_PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "percentG",
+        "Type": "varchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "percentto",
+        "Type": "varchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "pointg",
+        "Type": "varchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "pointto",
+        "Type": "varchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "Note",
+        "Type": "varchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "Percent_ID"
+    ]
+  },
+  {
+    "keyuuid": "7e0515e5",
+    "table": "TNT_ProcessFyfp",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "ProcessDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "ProcessEnd",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Processyear",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "ProcessNo",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "NumPerson",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "NumMale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "NumFemale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "ApprovePerson",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "ApproveMale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "ApproveFemale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "ImproveSkill",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "ImproveSkillTrain",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "ImproveSkillExp",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "PersonSkillMale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "PersonSkillFemale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "ChangeCareer",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "ChangeCareerTrain",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 20,
+        "Name": "ChangeCareerExp",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 21,
+        "Name": "PersonCareerMale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 22,
+        "Name": "PersonCareerFemale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 23,
+        "Name": "Status_Del",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 24,
+        "Name": "SaveBy",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 25,
+        "Name": "SaveDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 26,
+        "Name": "CompanyID",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 27,
+        "Name": "CompanyName",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 28,
+        "Name": "CompanyAdd",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 29,
+        "Name": "CompanySoi",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 30,
+        "Name": "CompanyStreet",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 31,
+        "Name": "CompanyDistrict",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 32,
+        "Name": "CompanyAmphur",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 33,
+        "Name": "CompanyProvince",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 34,
+        "Name": "CompanyPostalCode",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 35,
+        "Name": "CompanyTel",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 36,
+        "Name": "CompanyFax",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 37,
+        "Name": "Generic8",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": 2
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "7a5b5e40",
+    "table": "TNT_ProcessSt",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_st",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "ProcessYear",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Process_N",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "TotalEmp",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "TotalMonth",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "EmpAvg",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "Emp50",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "EmpLess",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "ApproveCourse",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "TrainPerson",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "PrepareWork",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "ImproveSkill",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "ChangeCareer",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "MoneyFund",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "MoneyExtra",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "MoneyTotal",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "CompanyID",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "CompanyName",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 20,
+        "Name": "CompanyAdd",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 21,
+        "Name": "CompanySoi",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 22,
+        "Name": "CompanyStreet",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 23,
+        "Name": "CompanyDistrict",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 24,
+        "Name": "CompanyAmphur",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 25,
+        "Name": "CompanyProvince",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 26,
+        "Name": "CompanyPostalCode",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 27,
+        "Name": "CompanyTel",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 28,
+        "Name": "CompanyFax",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 29,
+        "Name": "CompanyEMail",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 30,
+        "Name": "m1",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 31,
+        "Name": "m2",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 32,
+        "Name": "m3",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 33,
+        "Name": "m4",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 34,
+        "Name": "m5",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 35,
+        "Name": "m6",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 36,
+        "Name": "m7",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 37,
+        "Name": "m8",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 38,
+        "Name": "m9",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 39,
+        "Name": "m10",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 40,
+        "Name": "m11",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 41,
+        "Name": "m12",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 42,
+        "Name": "EmpMonth100",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 43,
+        "Name": "EmpAvgYear",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 44,
+        "Name": "MonthRate",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 45,
+        "Name": "Month100",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 46,
+        "Name": "StatusDel",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 47,
+        "Name": "Emp3",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 48,
+        "Name": "Course3",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 49,
+        "Name": "EmpPassTrain",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 50,
+        "Name": "EmpImprove",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 51,
+        "Name": "EmpChange",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 52,
+        "Name": "EmpPassStd",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 53,
+        "Name": "EmpPassAbility",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 54,
+        "Name": "EmpLassLimit",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 55,
+        "Name": "EmpNoProceed",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 56,
+        "Name": "SendBy",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 57,
+        "Name": "SendPosition",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 58,
+        "Name": "SendDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 59,
+        "Name": "PayExtra",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 60,
+        "Name": "PayOver",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 61,
+        "Name": "BillNum",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 62,
+        "Name": "BillNo",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 63,
+        "Name": "BillDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 64,
+        "Name": "Examiner",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 65,
+        "Name": "ExamPosition",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 66,
+        "Name": "ExamDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 67,
+        "Name": "Financial",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 68,
+        "Name": "FinanPosition",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 69,
+        "Name": "FinanDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "511b485f",
+    "table": "TNT_Qualifications",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Qualification_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Qualification",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Qualification_Name",
+        "Type": "nvarchar",
+        "Character": 300,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Qualification_N",
+        "Type": "nvarchar",
+        "Character": 5,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "CompanyID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "GUID_PaternRef",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "Qualification_ID"
+    ]
+  },
+  {
+    "keyuuid": "10affb4d",
+    "table": "TNT_St22Cert",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Cert",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_St",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "ProcessYear",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "noapp",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "dateapp",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "bookapp",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "PrepareWork",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "ImproveSkill",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "ChangeCareer",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "CompanyName",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "c1",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "c2",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "c3",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "c4",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "c5",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "c6",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 20,
+        "Name": "c7",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 21,
+        "Name": "c8",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 22,
+        "Name": "c9",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 23,
+        "Name": "c10",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 24,
+        "Name": "PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "465bdf6e",
+    "table": "TNT_St22Person",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Name",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_St",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "PersonCardID",
+        "Type": "nvarchar",
+        "Character": 20,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Title",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "Fname",
+        "Type": "nvarchar",
+        "Character": 20,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "Lname",
+        "Type": "nvarchar",
+        "Character": 20,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "PersonPosition",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "Reason",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "RefName",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "TrainHour",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "noapp",
+        "Type": "nvarchar",
+        "Character": 20,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "dateapp",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "Type_PaternID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "EmpTotal",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "EmpRate",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "EmpTrain",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 20,
+        "Name": "ProcessYear",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 21,
+        "Name": "CompanyName",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 22,
+        "Name": "c1",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 23,
+        "Name": "c2",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 24,
+        "Name": "c3",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 25,
+        "Name": "c4",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 26,
+        "Name": "c5",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 27,
+        "Name": "c6",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 28,
+        "Name": "c7",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 29,
+        "Name": "c8",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 30,
+        "Name": "c9",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 31,
+        "Name": "c10",
+        "Type": "varchar",
+        "Character": 2,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 32,
+        "Name": "SendBy",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "de3fbba6",
+    "table": "TNT_stText",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "year",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "operator",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "c1",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "c2",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "c3",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "c4",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "c5",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "c6",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "c7",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "c8",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "c9",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "c10",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "Person2",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "Person21",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "Person22",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "Companyid",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": []
+  },
+  {
+    "keyuuid": "e3a56b94",
+    "table": "TNT_SubFyfp",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_fyfp_Sub",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_fyfp",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "GUID_Ref",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "GUID_Patern",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "RefName",
+        "Type": "nvarchar",
+        "Character": 150,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Patern_N",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "GUID_Institue",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "InstitueName",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "GUID_Type",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "Type_CourseID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "Type_CourseName",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "Type_PaternID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "PaternPerson",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "PaternExp",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "PersonExp",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "ApprovePerson",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "ApproveMale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "ApproveFemale",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 20,
+        "Name": "ProcessDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 21,
+        "Name": "ProcessEnd",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 22,
+        "Name": "Processyear",
+        "Type": "nvarchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 23,
+        "Name": "ProcessNo",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 24,
+        "Name": "Property",
+        "Type": "nvarchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 25,
+        "Name": "Subject",
+        "Type": "nvarchar",
+        "Character": 250,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 26,
+        "Name": "b1",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 27,
+        "Name": "b2",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 28,
+        "Name": "b3",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 29,
+        "Name": "b4",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 30,
+        "Name": "b5",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 31,
+        "Name": "b6",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 32,
+        "Name": "b7",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 33,
+        "Name": "b8",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 34,
+        "Name": "b9",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 35,
+        "Name": "b10",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 36,
+        "Name": "b11",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 37,
+        "Name": "b12",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 38,
+        "Name": "b13",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 39,
+        "Name": "b14",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 40,
+        "Name": "b15",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 41,
+        "Name": "b16",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 42,
+        "Name": "b18",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 43,
+        "Name": "budget",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 44,
+        "Name": "Certificate",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 45,
+        "Name": "a1",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 46,
+        "Name": "a2",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 47,
+        "Name": "a3",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 48,
+        "Name": "a4",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 49,
+        "Name": "a5",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 50,
+        "Name": "a6",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 51,
+        "Name": "daywrite",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 52,
+        "Name": "writeby",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 53,
+        "Name": "writebyposi",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 54,
+        "Name": "Checkby",
+        "Type": "nvarchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 55,
+        "Name": "Checkbyposi",
+        "Type": "nvarchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 56,
+        "Name": "StatusSt",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 57,
+        "Name": "StatusDel",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "ID"
+    ]
+  },
+  {
+    "keyuuid": "d2d67a8d",
+    "table": "TNT_TrainDay",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "TrainDay_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Train",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "TrainDay_N",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "TrainDay_Date",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "TrainDay_End",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "TrainDay_Time",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "TrainDay_EndTime",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "TrainDay_Hour",
+        "Type": "varchar",
+        "Character": 10,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "TrainDay_TotalHour",
+        "Type": "int",
+        "Character": null,
+        "Numeric": 10,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "TrainDay_Note",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "GUID_Patern",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "GUID_Train"
+    ]
+  },
+  {
+    "keyuuid": "2af6b88f",
+    "table": "TNT_TrainExpenses",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "TrainExpensesID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Patern",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "ExpensesID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "ExpensesMoney",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "TrainExpensesID"
+    ]
+  },
+  {
+    "keyuuid": "5bf429a4",
+    "table": "TNT_TrainPerson",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "TrainPID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "GUID_Train",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "GUID_Person",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "DateTrain",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Tmp_status",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Remark",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": []
+  },
+  {
+    "keyuuid": "d8581eca",
+    "table": "TNT_TrainPersonEvaluation",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "PersonTrainID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "PersonTrain_Point",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "PersonTrain_Pass",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 30,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "GUID_Patern",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "Reason",
+        "Type": "varchar",
+        "Character": 300,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "Tmp_PersonID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 8,
+        "Name": "Tmp_status",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 9,
+        "Name": "PersonTrain_Grade",
+        "Type": "varchar",
+        "Character": 5,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 10,
+        "Name": "Chkweb",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 11,
+        "Name": "Hweb",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 12,
+        "Name": "Hwebnew",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 13,
+        "Name": "pretest_point",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 14,
+        "Name": "posttest_point",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 15,
+        "Name": "Out_time",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 16,
+        "Name": "opperatorpoint",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 17,
+        "Name": "Writepoint",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 18,
+        "Name": "Choicepoint",
+        "Type": "float",
+        "Character": null,
+        "Numeric": 53,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 19,
+        "Name": "bookapp",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 20,
+        "Name": "noapp",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 21,
+        "Name": "dateapp",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 22,
+        "Name": "R1",
+        "Type": "varchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 23,
+        "Name": "RQ1",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 24,
+        "Name": "RQ0",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 25,
+        "Name": "RQ2",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 26,
+        "Name": "RQ02",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 27,
+        "Name": "Ap1",
+        "Type": "varchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 28,
+        "Name": "Ap2",
+        "Type": "varchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 29,
+        "Name": "Ap02",
+        "Type": "varchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 30,
+        "Name": "Ap0",
+        "Type": "varchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 31,
+        "Name": "hour1",
+        "Type": "varchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 32,
+        "Name": "dayt1",
+        "Type": "varchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 33,
+        "Name": "Personf1",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 34,
+        "Name": "dApq2",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 35,
+        "Name": "dApq1",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 36,
+        "Name": "dApq02",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 37,
+        "Name": "dApq0",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 38,
+        "Name": "Personf01",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 39,
+        "Name": "Personf02",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 40,
+        "Name": "ap111",
+        "Type": "varchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 41,
+        "Name": "Approve",
+        "Type": "varchar",
+        "Character": 1,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 42,
+        "Name": "ConfirmCancel",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 43,
+        "Name": "PersonApp1",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 44,
+        "Name": "PersonApp2",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 45,
+        "Name": "PersonApp3",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 46,
+        "Name": "PersonApp4",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 47,
+        "Name": "PersonApp5",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 48,
+        "Name": "PersonApp6",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 49,
+        "Name": "CkConfirmCancel",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 50,
+        "Name": "PersonApp1Memo",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 51,
+        "Name": "PersonApp2Memo",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 52,
+        "Name": "PersonApp3Memo",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 53,
+        "Name": "PersonApp4Memo",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 54,
+        "Name": "PersonApp5Memo",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 55,
+        "Name": "PersonApp6Memo",
+        "Type": "varchar",
+        "Character": 500,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 56,
+        "Name": "User_CancelPerson",
+        "Type": "varchar",
+        "Character": 100,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 57,
+        "Name": "ChkDel",
+        "Type": "bit",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 58,
+        "Name": "Cancle_Date",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 59,
+        "Name": "Prestatus",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 60,
+        "Name": "Poststatus",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 61,
+        "Name": "License_ExpireDate",
+        "Type": "datetime",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": 3,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 62,
+        "Name": "License_no",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 63,
+        "Name": "Tmp_PersonIDLicense",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 64,
+        "Name": "Tmp_PersonIDLicensestatus",
+        "Type": "varchar",
+        "Character": 200,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 65,
+        "Name": "PostPoint",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 66,
+        "Name": "PostPointLAB",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 67,
+        "Name": "PrePoint",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 68,
+        "Name": "PrePointLAB",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "PersonTrainID"
+    ]
+  },
+  {
+    "keyuuid": "e4061c8a",
+    "table": "TNT_Vt",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Vt_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "Vt_Name",
+        "Type": "nvarchar",
+        "Character": 300,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Vt_N",
+        "Type": "nvarchar",
+        "Character": 5,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "CompanyID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "GUID_PaternRef",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "Vt_ID"
+    ]
+  },
+  {
+    "keyuuid": "ea0c9164",
+    "table": "TNT_Vttopic",
+    "column": [
+      {
+        "Order": 1,
+        "Name": "Vttopic_ID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      },
+      {
+        "Order": 2,
+        "Name": "Vttopic_Name",
+        "Type": "nvarchar",
+        "Character": 300,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 3,
+        "Name": "Vttopic_Name2",
+        "Type": "nvarchar",
+        "Character": 50,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 4,
+        "Name": "Vttopic_Name3",
+        "Type": "nvarchar",
+        "Character": 1000,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 5,
+        "Name": "Vttopic_N",
+        "Type": "nvarchar",
+        "Character": 5,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 6,
+        "Name": "CompanyID",
+        "Type": "numeric",
+        "Character": null,
+        "Numeric": 18,
+        "DateTime": null,
+        "Able": true,
+        "Scale": null
+      },
+      {
+        "Order": 7,
+        "Name": "GUID_PaternRef",
+        "Type": "uniqueidentifier",
+        "Character": null,
+        "Numeric": null,
+        "DateTime": null,
+        "Able": false,
+        "Scale": null
+      }
+    ],
+    "primary": [
+      "Vttopic_ID"
+    ]
+  }
+]

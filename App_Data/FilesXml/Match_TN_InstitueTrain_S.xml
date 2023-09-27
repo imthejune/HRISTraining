@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Match_TN_InstitueTrain" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Match_TN_InstitueTrain">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:long" minOccurs="0" />
+              <xs:element name="Guid_Setting" type="xs:int" minOccurs="0" />
+              <xs:element name="old_table" type="xs:string" minOccurs="0" />
+              <xs:element name="old_col" type="xs:string" minOccurs="0" />
+              <xs:element name="old_type" type="xs:string" minOccurs="0" />
+              <xs:element name="new_table" type="xs:string" minOccurs="0" />
+              <xs:element name="new_col" type="xs:string" minOccurs="0" />
+              <xs:element name="new_type" type="xs:string" minOccurs="0" />
+              <xs:element name="default_value" type="xs:string" minOccurs="0" />
+              <xs:element name="status" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HRISTraining", ".", "{8F5F6DE2-AFCE-4E03-98CE-77D059904597}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{728f0275-9b0f-4630-9139-9598d9f9f3f5}|CLB_Training.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1993"
+		Debug.AspNetCompiler.PhysicalPath = "..\HRISTraining\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1993\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1993"
+		Release.AspNetCompiler.PhysicalPath = "..\HRISTraining\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1993\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1993"
+		SlnRelativePath = "..\HRISTraining\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{728F0275-9B0F-4630-9139-9598D9F9F3F5} = {728F0275-9B0F-4630-9139-9598D9F9F3F5}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CLB_Training", "WebReport_Training\CLB_Training\CLB_Training.vbproj", "{728F0275-9B0F-4630-9139-9598D9F9F3F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F5F6DE2-AFCE-4E03-98CE-77D059904597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5F6DE2-AFCE-4E03-98CE-77D059904597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5F6DE2-AFCE-4E03-98CE-77D059904597}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5F6DE2-AFCE-4E03-98CE-77D059904597}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{728F0275-9B0F-4630-9139-9598D9F9F3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728F0275-9B0F-4630-9139-9598D9F9F3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728F0275-9B0F-4630-9139-9598D9F9F3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728F0275-9B0F-4630-9139-9598D9F9F3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB9C00EA-E033-4214-ACE9-0917A68176E1}
+	EndGlobalSection
+EndGlobal

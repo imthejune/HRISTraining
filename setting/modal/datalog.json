@@ -1,0 +1,18 @@
+[
+    {
+        "tablename": "",
+        "transfer": [
+            {
+                "code":"",
+                "old": "",
+                "new": "",
+                "message": ""
+            }
+        ],
+        "report": {
+            "count": 0,
+            "done": 0,
+            "error": 0
+        }
+    }
+]

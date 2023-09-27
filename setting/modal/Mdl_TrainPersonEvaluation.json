@@ -1,0 +1,30 @@
+{
+    "name": "Mdl_TrainPersonEvaluation",
+    "tableTo": "TNT_TrainPersonEvaluation",
+    "tableFor": "TN_TrainPerson",
+    "typeColumn": "GUID",
+    "searchColumn": "Patern_ID",
+    "columnTo": {
+        "name": "PersonTrainID",
+        "type": "Decimal"
+    },
+    "columnFor": {
+        "name": "PersonTrainID",
+        "type": "Decimal"
+    },
+    "foreigns": [],
+    "matchings": [
+        {
+            "column": "Patern_ID",
+            "columnTo": "GUID_Patern",
+            "option": {
+                "duplicate": false,
+                "instead": true
+            }
+        }
+    ],
+    "entraps": [
+        "PersonTrainID"
+    ],
+    "additions": []
+}

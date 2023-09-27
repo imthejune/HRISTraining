@@ -1,0 +1,26 @@
+﻿  
+    .dateTextBox 
+    {   
+        padding-right: 5px;
+        padding-left: 5px;
+        color: #272722  !important;  
+        font: 12px "segoe ui",arial,sans-serif  !important;
+    }
+
+    .radTextBox {
+        font: 12px "segoe ui",arial,sans-serif  !important;
+    }
+
+
+    .rgSelectedRow {
+        background: #ADD8E6 0 0 repeat-x !important;
+    }
+
+
+    /* CHAT, add new for border 600421 */
+    /*.rgRow > td, .RadGrid_Telerik .rgAltRow > td, .RadGrid_Telerik .rgEditRow > td
+    {
+        border-style: solid !important;
+        border-width: 0px 0px 1px 1px !important;
+        border-color: #707070 !important; 
+    }*/

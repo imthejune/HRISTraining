@@ -1,0 +1,82 @@
+{
+
+    "connection": {
+        "BaseTo":"server=TG11519\\SQLEXPRESS;uid=sa;pwd=tiger;database=tn_test02",
+        "BaseFor":"server=TG11519\\SQLEXPRESS;uid=sa;pwd=tiger;database=Cyber_aot"
+    },
+    "main":[
+        {
+            "code":"p01",
+            "template": "Master_Company",
+            "title":"",
+            "status": true
+        }
+    ],
+    "transection": [
+        {
+            "code":"t01",
+            "template": "Patern_Course",
+            "title":"ข้อมูลหลักสูตรอบรม",
+            "status": true
+        }
+    ],
+    "ExpandTransection":[
+        {
+            "code":"ET01",
+            "template": "Mdl_TrainDay",
+            "title":"ข้อมูลวันที่อบรม",
+            "status": true
+        }
+    ],
+
+    "master": [
+        {
+            "code":"m01",
+            "template": "Mdl_Course",
+            "title":"ข้อมูลหลักสูคร",
+            "status": true
+        },
+        {
+            "code":"m02",
+            "template": "Mdl_GroupCourse",
+            "title":"ข้อมูลกลุ่มหลักสูคร",
+            "status": true
+        },
+        {
+            "code":"m03",
+            "template": "Mdl_InstitueTrain",
+            "title":"",
+            "status": true
+        },
+        {
+            "code":"m04",
+            "template": "Mdl_Organize",
+            "title":"",
+            "status": true
+        },
+        {
+            "code":"m05",
+            "template": "Mdl_TypeCourse",
+            "title":"",
+            "status": true
+        },
+        {
+            "code":"m06",
+            "template": "Mdl_Type",
+            "title":"",
+            "status": true
+        },
+        {
+            "code":"m07",
+            "template": "Mdl_TypeCourse",
+            "title":"",
+            "status": true
+        },
+        {
+            "code":"m08",
+            "template": "Mdl_Professor",
+            "title":"",
+            "status": true
+        }
+    ]
+}

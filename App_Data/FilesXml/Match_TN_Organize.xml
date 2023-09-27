@@ -1,0 +1,124 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Match_TN_Organize>
+    <P_ID>1</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_ID</old_col>
+    <old_type>numeric</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_ID</new_col>
+    <new_type>numeric</new_type>
+    <default_value>Auto</default_value>
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>2</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_NameT</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_NameT</new_col>
+    <new_type>varchar</new_type>
+    <default_value>Duplicate</default_value>
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>3</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_NameE</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_NameE</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>4</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_Tel</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_Tel</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>5</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_Address</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_Address</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>6</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_Detail</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_Detail</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>7</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_Reason</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_Reason</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>8</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_Fax</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_Fax</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>9</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_ConPerson</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_ConPerson</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>10</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col>Organize_Code</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_Organize</new_table>
+    <new_col>Organize_Code</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_Organize>
+  <Match_TN_Organize>
+    <P_ID>11</P_ID>
+    <old_table>TN_Organize</old_table>
+    <old_col />
+    <old_type />
+    <new_table>TNM_Organize</new_table>
+    <new_col>GUID_Organize</new_col>
+    <new_type>uniqueidentifier</new_type>
+    <default_value>Guid</default_value>
+    <status>1</status>
+  </Match_TN_Organize>
+</NewDataSet>

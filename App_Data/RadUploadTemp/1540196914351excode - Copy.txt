@@ -1,0 +1,77 @@
+ตัด string ซ้ำ และรวม string
+Function combindString(col As String) As String
+        Dim sum As String = ""
+        Dim dTable As DataTable = st.DefaultView.ToTable(True, col)
+
+        For i As Integer = 0 To dTable.Rows.Count - 1
+            sum += dTable.Rows(i)(col)
+            If i <> (dTable.Rows.Count - 1) Then
+                sum += ","
+            End If
+        Next
+        Return sum
+End Function
+
+export excel
+Sub ExportExcel()
+
+        If dt.Rows.Count > 0 Then
+            Dim workSheet As ExcelWorksheet = Nothing
+            Dim fileTemp As String = HttpContext.Current.Request.PhysicalApplicationPath
+            Dim fileName As String = "excelTemplate.xltx"
+            If Not fileTemp.EndsWith("\") Then fileTemp = fileTemp & "\"
+            fileTemp = fileTemp & "ExportWord\RequirementReport\" & fileName
+            If Not File.Exists(fileTemp) Then
+                Dim ex As Exception = New Exception("Excel template file not found!,'" & fileTemp & "'.")
+                'ShowException(ex)
+                Return
+            End If
+
+            Dim fileInfo As FileInfo = New FileInfo(fileTemp)
+            Dim oExcelFile As ExcelPackage = New ExcelPackage(fileInfo, True)
+            workSheet = oExcelFile.Workbook.Worksheets("Test")
+
+            Try
+                Dim rowdt As Integer = 0
+                Dim rowex As Integer = 7
+                For Each DataRow In Getdt.Rows
+                    workSheet.Cells("B" & rowex).LoadFromText(Getdt(rowdt)("ExToppic"))
+                    workSheet.Cells("C" & rowex).LoadFromText(Getdt(rowdt)("ExTeamDev"))
+
+                    If Getdt.Rows(rowdt)("ExTask") <> "" Then
+                        If Getdt.Rows(rowdt)("ExNo") <> "" Then
+                            workSheet.Cells("D" & rowex).LoadFromText(Getdt(rowdt)("ExNo") & "." & Getdt(rowdt)("ExTask"))
+                        Else
+                            workSheet.Cells("D" & rowex).LoadFromText(Getdt(rowdt)("ExTask"))
+                        End If
+                    End If
+                    If Len(workSheet.Cells("D" & rowex).Text) > 85 Then
+                        workSheet.Cells("D" & rowex).Style.WrapText = True
+                        workSheet.Row(rowex).Height = 45
+                    End If
+                    workSheet.Cells("E" & rowex).LoadFromText(Getdt(rowdt)("ExAssign"))
+                    workSheet.Cells("F" & rowex).LoadFromText(Getdt(rowdt)("ExStart"))
+                    workSheet.Cells("G" & rowex).LoadFromText(Getdt(rowdt)("ExFinist"))
+                    workSheet.Cells("H" & rowex).LoadFromText(Getdt(rowdt)("ExStatus"))
+                    workSheet.Cells("A" & rowex).Style.Border.BorderAround(OfficeOpenXml.Style.ExcelBorderStyle.Thin, System.Drawing.Color.Black)
+                    workSheet.Cells("B" & rowex).Style.Border.BorderAround(OfficeOpenXml.Style.ExcelBorderStyle.Thin, System.Drawing.Color.Black)
+                    workSheet.Cells("C" & rowex).Style.Border.BorderAround(OfficeOpenXml.Style.ExcelBorderStyle.Thin, System.Drawing.Color.Black)
+                    workSheet.Cells("D" & rowex).Style.Border.BorderAround(OfficeOpenXml.Style.ExcelBorderStyle.Thin, System.Drawing.Color.Black)
+                    workSheet.Cells("E" & rowex).Style.Border.BorderAround(OfficeOpenXml.Style.ExcelBorderStyle.Thin, System.Drawing.Color.Black)
+                    workSheet.Cells("F" & rowex).Style.Border.BorderAround(OfficeOpenXml.Style.ExcelBorderStyle.Thin, System.Drawing.Color.Black)
+                    workSheet.Cells("G" & rowex).Style.Border.BorderAround(OfficeOpenXml.Style.ExcelBorderStyle.Thin, System.Drawing.Color.Black)
+                    workSheet.Cells("H" & rowex).Style.Border.BorderAround(OfficeOpenXml.Style.ExcelBorderStyle.Thin, System.Drawing.Color.Black)
+                    rowdt = rowdt + 1
+                    rowex = rowex + 1
+                Next
+            Catch ex As Exception
+            Finally
+                Dim fname As String = "FM-DV-16-R01-" & Now.ToString("yyyyMMdd") & "-Progress Team-" & GetCompany()
+                Response.Clear()
+                Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                Response.AddHeader("content-disposition", "attachment;  filename=" & fname & ".xlsx")
+                Response.BinaryWrite(oExcelFile.GetAsByteArray())
+                Response.End()
+            End Try
+        End If
+    End Sub

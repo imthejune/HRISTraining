@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <match_TN_Type_Patern>
+    <P_ID>1</P_ID>
+    <old_table>TN_Type_Patern</old_table>
+    <old_col>TN_Type_PaternID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Type_Patern>
+  <match_TN_Type_Patern>
+    <P_ID>2</P_ID>
+    <old_table>TN_Type_Patern</old_table>
+    <old_col>TN_Type_PaternName</old_col>
+    <old_type>nvarchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Type_Patern>
+</NewDataSet>

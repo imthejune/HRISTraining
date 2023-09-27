@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Match_TN_InstitueTrain>
+    <P_ID>1</P_ID>
+    <old_table>TN_InstitueTrain</old_table>
+    <old_col>InstitueTrainID</old_col>
+    <old_type>numeric</old_type>
+    <new_table>TNM_InstitueTrain</new_table>
+    <new_col>InstitueTrainID</new_col>
+    <new_type>numeric</new_type>
+    <default_value>Auto</default_value>
+    <status>1</status>
+  </Match_TN_InstitueTrain>
+  <Match_TN_InstitueTrain>
+    <P_ID>2</P_ID>
+    <old_table>TN_InstitueTrain</old_table>
+    <old_col>InstitueTrainNameT</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_InstitueTrain</new_table>
+    <new_col>InstitueTrainNameT</new_col>
+    <new_type>varchar</new_type>
+    <default_value>Duplicate</default_value>
+    <status>1</status>
+  </Match_TN_InstitueTrain>
+  <Match_TN_InstitueTrain>
+    <P_ID>3</P_ID>
+    <old_table>TN_InstitueTrain</old_table>
+    <old_col>InstitueTrainNameE</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_InstitueTrain</new_table>
+    <new_col>InstitueTrainNameE</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_InstitueTrain>
+  <Match_TN_InstitueTrain>
+    <P_ID>4</P_ID>
+    <old_table>TN_InstitueTrain</old_table>
+    <old_col>InstitueTrainTel</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_InstitueTrain</new_table>
+    <new_col>InstitueTrainTel</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_InstitueTrain>
+  <Match_TN_InstitueTrain>
+    <P_ID>5</P_ID>
+    <old_table>TN_InstitueTrain</old_table>
+    <old_col>InstitueTrainAddress</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_InstitueTrain</new_table>
+    <new_col>InstitueTrainAddress</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_InstitueTrain>
+  <Match_TN_InstitueTrain>
+    <P_ID>6</P_ID>
+    <old_table>TN_InstitueTrain</old_table>
+    <old_col>InstitueTrainConPerson</old_col>
+    <old_type>varchar</old_type>
+    <new_table>TNM_InstitueTrain</new_table>
+    <new_col>InstitueTrainConPerson</new_col>
+    <new_type>varchar</new_type>
+    <default_value />
+    <status>1</status>
+  </Match_TN_InstitueTrain>
+  <Match_TN_InstitueTrain>
+    <P_ID>7</P_ID>
+    <old_table>TN_InstitueTrain</old_table>
+    <old_col />
+    <old_type />
+    <new_table>TNM_InstitueTrain</new_table>
+    <new_col>GUID_Institue</new_col>
+    <new_type>uniqueidentifier</new_type>
+    <default_value>Guid</default_value>
+    <status>1</status>
+  </Match_TN_InstitueTrain>
+</NewDataSet>

@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{728F0275-9B0F-4630-9139-9598D9F9F3F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>CLB_Training</RootNamespace>
+    <AssemblyName>CLB_Training</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CLB_Training.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CLB_Training.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Telerik.Reporting, Version=13.1.19.618, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Progress\Telerik Reporting R2 2019\bin\Telerik.Reporting.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WebForms, Version=13.1.19.618, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Progress\Telerik Reporting R2 2019\bin\Telerik.ReportViewer.WebForms.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLB_Function.vb" />
+    <Compile Include="ConnDataBase.vb" />
+    <Compile Include="connExecute.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report\Report1.Designer.vb">
+      <DependentUpon>Report1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Report1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Report2.Designer.vb">
+      <DependentUpon>Report2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Report2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\RetgroupEco.Designer.vb">
+      <DependentUpon>RetgroupEco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RetgroupEco.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptpersonintrain.Designer.vb">
+      <DependentUpon>rptpersonintrain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptpersonintrain.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_Nottrainyear.Designer.vb">
+      <DependentUpon>rpt_Nottrainyear.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_Nottrainyear.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_Config_Course.Designer.vb">
+      <DependentUpon>rpt_Config_Course.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_Config_Course.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_Config_Group.Designer.vb">
+      <DependentUpon>rpt_Config_Group.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_Config_Group.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp1.Designer.vb">
+      <DependentUpon>rpt_FyFp1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21year.Designer.vb">
+      <DependentUpon>rpt_FyFp21year.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21year.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_checkby.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_checkby.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_checkby.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_money.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_money.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_money.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_moneyPerEmp.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_moneyPerEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_moneyPerEmp.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_place.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_place.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_place.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_professor.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_professor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_professor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_property.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_property.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_property.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_qualification.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_qualification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_qualification.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_subject.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_subject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_subject.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_time.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_time.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_time.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_totalEmp.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_totalEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_totalEmp.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_trainee.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_trainee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_trainee.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_vut.Designer.vb">
+      <DependentUpon>rpt_FyFp21_sub_vut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp21_sub_vut.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp22.Designer.vb">
+      <DependentUpon>rpt_FyFp22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp22.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp3.Designer.vb">
+      <DependentUpon>rpt_FyFp3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_FyFp3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_IME1NU.Designer.vb">
+      <DependentUpon>rpt_IME1NU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_IME1NU.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_PaternCourse.Designer.vb">
+      <DependentUpon>rpt_PaternCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_PaternCourse.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_PaternpersonAbsen.Designer.vb">
+      <DependentUpon>rpt_PaternpersonAbsen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_PaternpersonAbsen.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_ST21.Designer.vb">
+      <DependentUpon>rpt_ST21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_ST21.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_ST22.Designer.vb">
+      <DependentUpon>rpt_ST22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_ST22.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_ST2new.Designer.vb">
+      <DependentUpon>rpt_ST2new.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_ST2new.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_sub_IME1NU.Designer.vb">
+      <DependentUpon>rpt_sub_IME1NU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_sub_IME1NU.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_sub_professor.Designer.vb">
+      <DependentUpon>rpt_sub_professor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_sub_professor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_sub_TrainCourse.Designer.vb">
+      <DependentUpon>rpt_sub_TrainCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_sub_TrainCourse.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_sub_TrainPerson.Designer.vb">
+      <DependentUpon>rpt_sub_TrainPerson.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_sub_TrainPerson.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_sub_yearNu2Stand.Designer.vb">
+      <DependentUpon>rpt_sub_yearNu2Stand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_sub_yearNu2Stand.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_SumYear.Designer.vb">
+      <DependentUpon>rpt_SumYear.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_SumYear.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TimeTAM_Holiday.Designer.vb">
+      <DependentUpon>rpt_TimeTAM_Holiday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TimeTAM_Holiday.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_006_02.Designer.vb">
+      <DependentUpon>rpt_TNR1_006_02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_006_02.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_Tmppass.Designer.vb">
+      <DependentUpon>rpt_Tmppass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_Tmppass.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_007_03.Designer.vb">
+      <DependentUpon>rpt_TNR1_007_03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_007_03.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_007_14.Designer.vb">
+      <DependentUpon>rpt_TNR1_007_14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_007_14.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_01.Designer.vb">
+      <DependentUpon>rpt_TNR1_026_01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_01.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_02.Designer.vb">
+      <DependentUpon>rpt_TNR1_026_02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_02.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_03.Designer.vb">
+      <DependentUpon>rpt_TNR1_026_03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_03.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_04.Designer.vb">
+      <DependentUpon>rpt_TNR1_026_04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_04.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_05.Designer.vb">
+      <DependentUpon>rpt_TNR1_026_05.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_05.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_06.Designer.vb">
+      <DependentUpon>rpt_TNR1_026_06.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_06.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_07.Designer.vb">
+      <DependentUpon>rpt_TNR1_026_07.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_07.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_08.Designer.vb">
+      <DependentUpon>rpt_TNR1_026_08.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_026_08.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_trainyearakane.Designer.vb">
+      <DependentUpon>rpt_trainyearakane.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_trainyearakane.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TRN1_016.Designer.vb">
+      <DependentUpon>rpt_TRN1_016.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TRN1_016.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_007_08.Designer.vb">
+      <DependentUpon>rpt_TNR1_007_08.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_007_08.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_yearNu2Stand.Designer.vb">
+      <DependentUpon>rpt_yearNu2Stand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_yearNu2Stand.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_yearStand.Designer.vb">
+      <DependentUpon>rpt_yearStand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_yearStand.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Sub_Reports\rpt_007_03.Designer.vb">
+      <DependentUpon>rpt_007_03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Sub_Reports\rpt_007_03.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Test.Designer.vb">
+      <DependentUpon>Test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Test.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_006_03.Designer.vb">
+      <DependentUpon>rpt_TNR1_006_03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rpt_TNR1_006_03.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Report1.resx">
+      <DependentUpon>Report1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Report2.resx">
+      <DependentUpon>Report2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RetgroupEco.resx">
+      <DependentUpon>RetgroupEco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptpersonintrain.resx">
+      <DependentUpon>rptpersonintrain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_Nottrainyear.resx">
+      <DependentUpon>rpt_Nottrainyear.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_Config_Course.resx">
+      <DependentUpon>rpt_Config_Course.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_Config_Group.resx">
+      <DependentUpon>rpt_Config_Group.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp1.resx">
+      <DependentUpon>rpt_FyFp1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21year.resx">
+      <DependentUpon>rpt_FyFp21year.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_checkby.resx">
+      <DependentUpon>rpt_FyFp21_sub_checkby.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_money.resx">
+      <DependentUpon>rpt_FyFp21_sub_money.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_moneyPerEmp.resx">
+      <DependentUpon>rpt_FyFp21_sub_moneyPerEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_place.resx">
+      <DependentUpon>rpt_FyFp21_sub_place.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_professor.resx">
+      <DependentUpon>rpt_FyFp21_sub_professor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_property.resx">
+      <DependentUpon>rpt_FyFp21_sub_property.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_qualification.resx">
+      <DependentUpon>rpt_FyFp21_sub_qualification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_subject.resx">
+      <DependentUpon>rpt_FyFp21_sub_subject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_time.resx">
+      <DependentUpon>rpt_FyFp21_sub_time.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_totalEmp.resx">
+      <DependentUpon>rpt_FyFp21_sub_totalEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_trainee.resx">
+      <DependentUpon>rpt_FyFp21_sub_trainee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp21_sub_vut.resx">
+      <DependentUpon>rpt_FyFp21_sub_vut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp22.resx">
+      <DependentUpon>rpt_FyFp22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_FyFp3.resx">
+      <DependentUpon>rpt_FyFp3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_IME1NU.resx">
+      <DependentUpon>rpt_IME1NU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_PaternCourse.resx">
+      <DependentUpon>rpt_PaternCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_PaternpersonAbsen.resx">
+      <DependentUpon>rpt_PaternpersonAbsen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_ST21.resx">
+      <DependentUpon>rpt_ST21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_ST22.resx">
+      <DependentUpon>rpt_ST22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_ST2new.resx">
+      <DependentUpon>rpt_ST2new.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_sub_IME1NU.resx">
+      <DependentUpon>rpt_sub_IME1NU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_sub_professor.resx">
+      <DependentUpon>rpt_sub_professor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_sub_TrainCourse.resx">
+      <DependentUpon>rpt_sub_TrainCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_sub_TrainPerson.resx">
+      <DependentUpon>rpt_sub_TrainPerson.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_sub_yearNu2Stand.resx">
+      <DependentUpon>rpt_sub_yearNu2Stand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_SumYear.resx">
+      <DependentUpon>rpt_SumYear.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TimeTAM_Holiday.resx">
+      <DependentUpon>rpt_TimeTAM_Holiday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_006_02.resx">
+      <DependentUpon>rpt_TNR1_006_02.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_Tmppass.resx">
+      <DependentUpon>rpt_Tmppass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_007_03.resx">
+      <DependentUpon>rpt_TNR1_007_03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_007_14.resx">
+      <DependentUpon>rpt_TNR1_007_14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_026_01.resx">
+      <DependentUpon>rpt_TNR1_026_01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_026_02.resx">
+      <DependentUpon>rpt_TNR1_026_02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_026_03.resx">
+      <DependentUpon>rpt_TNR1_026_03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_026_04.resx">
+      <DependentUpon>rpt_TNR1_026_04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_026_05.resx">
+      <DependentUpon>rpt_TNR1_026_05.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_026_06.resx">
+      <DependentUpon>rpt_TNR1_026_06.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_026_07.resx">
+      <DependentUpon>rpt_TNR1_026_07.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_026_08.resx">
+      <DependentUpon>rpt_TNR1_026_08.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_trainyearakane.resx">
+      <DependentUpon>rpt_trainyearakane.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TRN1_016.resx">
+      <DependentUpon>rpt_TRN1_016.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_007_08.resx">
+      <DependentUpon>rpt_TNR1_007_08.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_yearNu2Stand.resx">
+      <DependentUpon>rpt_yearNu2Stand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_yearStand.resx">
+      <DependentUpon>rpt_yearStand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Sub_Reports\rpt_007_03.resx">
+      <DependentUpon>rpt_007_03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Test.resx">
+      <DependentUpon>Test.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rpt_TNR1_006_03.resx">
+      <DependentUpon>rpt_TNR1_006_03.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

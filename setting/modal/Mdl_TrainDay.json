@@ -1,0 +1,90 @@
+{
+    "name": "Mdl_TrainDay",
+    "tableTo": "TNT_TrainDay",
+    "tableFor": "TN_Patern__Course",
+    "typeColumn": "GUID",
+    "searchColumn": "Patern_ID",
+    "columnTo": {
+        "name": "GUID_Train",
+        "type": "GUID"
+    },
+    "columnFor": {
+        "name": "Patern_ID",
+        "type": "Decimal"
+    },
+    "foreigns": [],
+    "matchings": [
+        {
+            "column": "Patern_Date",
+            "columnTo": "TrainDay_Date",
+            "option": {
+                "duplicate": true
+            }
+        },
+        {
+            "column": "Patern_End",
+            "columnTo": "TrainDay_End",
+            "option": {
+                "duplicate": true
+            }
+        },
+        {
+            "column": "Patern_N",
+            "columnTo": "TrainDay_N",
+            "option": {
+                "duplicate": true
+            }
+        },
+        {
+            "column": "Patern_Time",
+            "columnTo": "TrainDay_Time",
+            "option": {
+                "duplicate": true
+            }
+        },
+        {
+            "column": "Patern_EndTime",
+            "columnTo": "TrainDay_EndTime",
+            "option": {
+                "duplicate": true
+            }
+        },
+        {
+            "column": "Patern_ID",
+            "columnTo": "GUID_Patern",
+            "option": {
+                "duplicate": false,
+                "instead": true
+            }
+        },
+        {
+            "column": "Patern_Hour",
+            "columnTo": "TrainDay_Hour",
+            "option": {
+                "replaces": true,
+                "format": "{0}00"
+            }
+        },
+        {
+            "column": "M_Patern_Hour",
+            "columnTo": "TrainDay_TotalHour",
+            "option": {
+                "calculator": true,
+                "condition": {
+                    "type": "multiply",
+                    "value": 60
+                }
+            }
+        },
+        {
+            "column": "TrainDay_ID",
+            "option": {
+                "duplicate": false
+            }
+        }
+    ],
+    "entraps": [
+        "TrainDay_ID"
+    ],
+    "additions": []
+}

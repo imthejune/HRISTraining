@@ -1,0 +1,34 @@
+{
+
+    "name":"Mdl_Organize",
+    "tableTo": "TNM_Organize",
+    "tableFor": "TN_Organize",
+    "typeColumn":"GUID",
+    "columnTo": {
+        "name":"GUID_Organize",
+        "type":"GUID"
+    },
+    "columnFor" : {
+        "name":"Organize_ID",
+        "type":"Decimal"
+    },
+    "foreigns":[
+    ],
+    "matchings":[
+        {
+            "column":"Organize_ID",
+            "option": {
+                "duplicate":false
+            }
+        }
+    ],
+    "entraps":[
+        "Organize_ID"
+    ],
+    "additions": [
+        {
+            "column":"Organize_NameT",
+            "columnTo":"Organize_NameT"
+        }
+    ]
+}

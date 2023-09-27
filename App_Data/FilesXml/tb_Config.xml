@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <tb_Config>
+    <id>1</id>
+    <Type>Cyber</Type>
+    <ServerName>TG11508\SQLEXPRESS01</ServerName>
+    <Database>dbCyberHRM</Database>
+    <User>sa</User>
+    <Password>tiger</Password>
+    <Short>TN_</Short>
+    <Status>false</Status>
+    <Status_Work>1</Status_Work>
+  </tb_Config>
+  <tb_Config>
+    <id>2</id>
+    <Type>Hris</Type>
+    <ServerName>TG11508\SQLEXPRESS01</ServerName>
+    <Database>HrisTraining</Database>
+    <User>sa</User>
+    <Password>tiger</Password>
+    <Short>TN</Short>
+    <Status>false</Status>
+    <Status_Work>2</Status_Work>
+  </tb_Config>
+  <tb_Config>
+    <id>3</id>
+    <Type>Eve</Type>
+    <ServerName>192.168.8.131</ServerName>
+    <Database>CyberHRM</Database>
+    <User>sa</User>
+    <Password>Tiger</Password>
+    <Short>TN_</Short>
+    <Status>false</Status>
+    <Status_Work>0</Status_Work>
+  </tb_Config>
+</NewDataSet>

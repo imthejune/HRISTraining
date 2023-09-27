@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\Thanadech.m\AppData\Local\Temp\tmp11A2.tmp.cadir\bin\App_Code.dll">
+   <Modules>
+    <Module Name="app_code.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="Bases+Sessions" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'Bases.Sessions' because it creates members of the following IDisposable types: 'DataTable'. If 'Bases.Sessions' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Client" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#write(System.String,System.Object,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\class" File="Client.class.vb" Line="250">Object 'writer' can be disposed more than once in method 'Client.write(String, Object, Boolean)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 250</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#writeTodecode(System.String,System.Object,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\class" File="Client.class.vb" Line="227">Object 'writer' can be disposed more than once in method 'Client.writeTodecode(String, Object, Boolean)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 227</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="connExecute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cmdConnection()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="253">The query string passed to 'OleDbCommand.New(String, OleDbConnection)' in 'connExecute.cmdConnection()' could contain the following variables 'Me.sqlStr'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="247">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'connExecute.cmdConnection()' could contain the following variables 'Me.sqlStr'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CommandText(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="285">The query string passed to 'OleDbCommand.CommandText.Set(String)' in 'connExecute.CommandText(String)' could contain the following variables 'Me.sqlStr'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="278">The query string passed to 'SqlCommand.CommandText.Set(String)' in 'connExecute.CommandText(String)' could contain the following variables 'Me.sqlStr'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateCommand(System.String,System.Data.IDbConnection)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="592">The query string passed to 'SqlCommand.CommandText.Set(String)' in 'connExecute.CreateCommand(String, IDbConnection)' could contain the following variables 'Me.sqlStrFormat(xSql)', 'xSql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="cmdOle" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="41">'connExecute' contains field 'connExecute.cmdOle' that is of IDisposable type: 'OleDbCommand'. Change the Dispose method on 'connExecute' to call Dispose or Close on this field.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExecuteNonQuery(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="382">The query string passed to 'SqlCommand.CommandText.Set(String)' in 'connExecute.ExecuteNonQuery(String)' could contain the following variables 'xSql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExecuteReader(System.String,System.Data.Common.DbParameter[],System.Data.CommandBehavior)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="484">The query string passed to 'SqlCommand.CommandText.Set(String)' in 'connExecute.ExecuteReader(String, DbParameter(), CommandBehavior)' could contain the following variables 'xSql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExecuteScalar(System.String,System.Data.Common.DbParameter[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="400">The query string passed to 'SqlCommand.CommandText.Set(String)' in 'connExecute.ExecuteScalar(String, DbParameter())' could contain the following variables 'xCommandText'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Parameters" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_Parameters()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="Breaking">
+               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="connExecute.vb" Line="146">'connExecute.Parameters.Get()' creates an exception of type 'NotImplementedException', an exception type that should not be raised in a property. If this exception instance might be raised, use a different exception type, convert this property into a method, or change this property's logic so that it no longer raises an exception.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConnLoadTableMaster" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#TAM_Approver(System.Data.DataSet)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ConnLoadTableMaster.vb" Line="75">'ConnLoadTableMaster.TAM_Approver(DataSet)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CreateTable+Query" Kind="Struct" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#typeColumn(CreateTable+Model+Column)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Provide correct arguments to formatting methods" Category="Microsoft.Usage" CheckId="CA2241" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="MissingFormatItem" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\other" File="CreateTable.vb" Line="228">Method 'CreateTable.Query.typeColumn(CreateTable.Model.Column)' calls 'String.Format(String, Object, Object)' and does not provide a format item for argument "2". The provided format string is: '"[{0}]"'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Crypts" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'Crypts' because it creates members of the following IDisposable types: 'DESCryptoServiceProvider'. If 'Crypts' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Decrypt(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\class" File="Crypt.class.vb" Line="44">Object 'M1' can be disposed more than once in method 'Crypts.Decrypt(String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 44</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Encrypt(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\class" File="Crypt.class.vb" Line="25">Object 'M1' can be disposed more than once in method 'Crypts.Encrypt(String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 25</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DataHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetDateDisplayText(System.DateTime,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="DataHelper.vb" Line="171">'DataHelper.GetDateDisplayText(Date, String)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDateReportText(System.DateTime)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="DataHelper.vb" Line="153">'DataHelper.GetDateReportText(Date)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDateTimeDisplayText(System.DateTime,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="DataHelper.vb" Line="205">'DataHelper.GetDateTimeDisplayText(Date, String)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetYearDisplayText(System.Int32,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="DataHelper.vb" Line="188">'DataHelper.GetYearDisplayText(Integer, String)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToDateTime(System.DateTime)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="DataHelper.vb" Line="85">'DataHelper.ToDateTime(Date)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Email" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#SendMail(SMTP,MailMsg)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Email" File="Email.vb" Line="653">'Email.SendMail(SMTP, MailMsg)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Keys" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Decrypt(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\class" File="Keys.class.vb" Line="42">Object 'cs' can be disposed more than once in method 'Keys.Decrypt(String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 42</Issue>
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\class" File="Keys.class.vb" Line="42">Object 'ms' can be disposed more than once in method 'Keys.Decrypt(String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 42, 44</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Encrypt(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\class" File="Keys.class.vb" Line="22">Object 'cs' can be disposed more than once in method 'Keys.Encrypt(String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 22</Issue>
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\Tools\class" File="Keys.class.vb" Line="22">Object 'ms' can be disposed more than once in method 'Keys.Encrypt(String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 22, 24</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="M_ItemsReques" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'M_ItemsReques' because it creates members of the following IDisposable types: 'Mydata'. If 'M_ItemsReques' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Msg" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'Msg' because it creates members of the following IDisposable types: 'DataTable'. If 'Msg' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="MyCrypt" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'MyCrypt' because it creates members of the following IDisposable types: 'DESCryptoServiceProvider'. If 'MyCrypt' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Decrypt(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="Cipher.vb" Line="152">Object 'M1' can be disposed more than once in method 'MyCrypt.Decrypt(String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 152</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Encrypt(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="Cipher.vb" Line="137">Object 'M1' can be disposed more than once in method 'MyCrypt.Encrypt(String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 137</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Mydata" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Executescalar(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="Mydata.vb" Line="211">The query string passed to 'SqlCommand.CommandText.Set(String)' in 'Mydata.Executescalar(String)' could contain the following variables 'xCommandText'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDataset(System.Data.DataSet,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="Mydata.vb" Line="261">The query string passed to 'SqlCommand.CommandText.Set(String)' in 'Mydata.GetDataset(DataSet, String, String)' could contain the following variables 'strsql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDataTable(System.String,System.String,System.Int32,System.Int32,System.Data.Common.DbParameter[],System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code\MyData" File="Mydata.vb" Line="181">The query string passed to 'SqlCommand.CommandText.Set(String)' in 'Mydata.GetDataTable(String, String, Integer, Integer, DbParameter(), Boolean)' could contain the following variables 'strsql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="prodata" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#_tempConfig(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="M_ProData.vb" Line="173">'prodata._tempConfig(String, String)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Sys" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ApproveGroup" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_ApproveGroup()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="722">'Sys.ApproveGroup.Get()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Insert(System.String,System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="674">'Sys.Insert(String, String, String, String)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TAM_LangReport()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="441">'Sys.TAM_LangReport()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="treeview_v2" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'treeview_v2' because it creates members of the following IDisposable types: 'DataTable'. If 'treeview_v2' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="User" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'User' because it creates members of the following IDisposable types: 'DataSet', 'Mydata'. If 'User' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ApproveLeaveTimeOut" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_ApproveLeaveTimeOut()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="1392">'User.ApproveLeaveTimeOut.Get()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#ApproveOtTimeOut" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_ApproveOtTimeOut()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="1380">'User.ApproveOtTimeOut.Get()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#ApproveTimeInOutTimeOut" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_ApproveTimeInOutTimeOut()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="1409">'User.ApproveTimeInOutTimeOut.Get()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#CkHR_AlertTimeInOut" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_CkHR_AlertTimeInOut()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="1495">'User.CkHR_AlertTimeInOut.Get()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#CkHrAlertLeave" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_CkHrAlertLeave()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="1455">'User.CkHrAlertLeave.Get()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#CkHrAlertOT" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_CkHrAlertOT()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="1478">'User.CkHrAlertOT.Get()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#UseApproveLevel" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_UseApproveLevel()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\App_Code" File="ModulClass.vb" Line="1428">'User.UseApproveLevel.Get()' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WebSetting" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'WebSetting' because it creates members of the following IDisposable types: 'Mydata'. If 'WebSetting' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\Thanadech.m\AppData\Local\Temp\tmp11A2.tmp.cadir\bin\App_Web_lst34yaw.dll">
+   <Modules>
+    <Module Name="app_web_lst34yaw.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="test" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Insert(System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\THANADECH.M\25-02-2022\HRISTraining\Form" File="test.aspx.vb" Line="895">'test.Insert(String, String, String, String)' rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\Thanadech.m\AppData\Local\Temp\tmp11A2.tmp.cadir\bin\App_Web_lu2oh4sj.dll">
+   <Modules>
+    <Module Name="app_web_lu2oh4sj.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="Form_WebSearchRef" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetDataComboCourse(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Provide correct arguments to formatting methods" Category="Microsoft.Usage" CheckId="CA2241" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="MissingFormatItem" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\Form" File="WebSearchRef.aspx.vb" Line="66">Method 'Form_WebSearchRef.GetDataComboCourse(Integer)' calls 'String.Format(String, Object)' and does not provide a format item for argument "1". The provided format string is: '"select Course_ID,GUID_Course,Course_Code,Course_NameT,Course_NameE from TNM_Cou..."'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+  <Target Name="C:\Users\Thanadech.m\AppData\Local\Temp\tmp11A2.tmp.cadir\bin\App_Web_tuuger5z.dll">
+   <Modules>
+    <Module Name="app_web_tuuger5z.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="Account_Login" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sbmt_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Provide correct arguments to formatting methods" Category="Microsoft.Usage" CheckId="CA2241" Status="Active" Created="2022-05-09 02:32:29Z" FixCategory="DependsOnFix">
+             <Issue Name="MissingFormatItem" Certainty="75" Level="Warning" Path="D:\THANADECH.M\25-02-2022\HRISTraining\Account" File="Login.aspx.vb" Line="136">Method 'Account_Login.sbmt_Click(Object, EventArgs)' calls 'String.Format(String, Object)' and does not provide a format item for argument "1". The provided format string is: '" and PNT_Person.CompanyID = ? "'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>Disposable fields should be disposed</Name>
+   <Description>If a type that implements IDisposable owns fields that also implement IDisposable, the encapsulating type's Dispose() implementation should call Dispose() on each disposable field.</Description>
+   <Resolution Name="Default">{0} contains field {1} that is of IDisposable type: {2}. Change the Dispose method on {0} to call Dispose or Close on this field.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Do not dispose objects multiple times</Name>
+   <Description>A correctly implemented Dispose method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.</Description>
+   <Resolution Name="Default">Object {0} can be disposed more than once in method {1}. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 250</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065">
+   <Name>Do not raise exceptions in unexpected locations</Name>
+   <Description>Do not explicitly raise exceptions from unexpected locations. There are some methods, such as Equals and GetHashCode, which users do not expect to raise exceptions. Therefore calls to these methods are not commonly wrapped in try catch blocks.</Description>
+   <Resolution Name="PropertyGetter">{0} creates an exception of type {1}, an exception type that should not be raised in a property. If this exception instance might be raised, use a different exception type, convert this property into a method, or change this property's logic so that it no longer raises an exception.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386039.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error, Warning</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Provide correct arguments to formatting methods" Category="Microsoft.Usage" CheckId="CA2241">
+   <Name>Provide correct arguments to formatting methods</Name>
+   <Description>Provide the correct number of arguments to String.Format calls.</Description>
+   <Resolution Name="MissingFormatItem">Method {0} calls {1} and does not provide a format item for argument {2}. The provided format string is: '{3}'</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182361.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>Rethrow to preserve stack details</Name>
+   <Description>Use the IL rethrow instruction to preserve original stack details when re-raising a caught exception.</Description>
+   <Resolution Name="Default">{0} rethrows a caught exception and specifies it explicitly as an argument. Use 'throw' without an argument instead, in order to preserve the stack location where the exception was initially raised.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Types that own disposable fields should be disposable</Name>
+   <Description>Types that declare disposable members should also implement IDisposable. If the type does not own any unmanaged resources, do not implement a finalizer on it.</Description>
+   <Resolution Name="DependsOnFix">Implement IDisposable on {0} because it creates members of the following IDisposable types: {1}. If {0} has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,44 @@
+{
+    "name": "Mdl_transection_Professor",
+    "tableTo": "TNT_Patern_Professor",
+    "tableFor": "TN_Patern_Professor",
+    "typeColumn": "GUID",
+    "searchColumn":"Patern_ID",
+    "columnTo": {
+        "name": "GUID_PaternPro",
+        "type": "GUID"
+    },
+    "columnFor": {
+        "name": "Patern_Professor_ID",
+        "type": "Decimal"
+    },
+    "foreigns": [
+        {
+            "column": "Course_ID",
+            "columnTo": "GUID_Course",
+            "refer": "Mdl_Course",
+            "type": "GUID"
+        },
+        {
+            "column": "Professor_ID",
+            "columnTo": "GUID_Professor",
+            "refer": "Mdl_Professor",
+            "Type": "GUID"
+        }
+    ],
+    "matchings": [
+        {
+            "column": "Patern_ID",
+            "columnTo": "GUID_Patern",
+            "option": {
+                "duplicate": false,
+                "instead": true
+            }
+        }
+    ],
+    "entraps": [
+        "Patern_Professor_ID",
+        "PaternRef_ID"
+    ],
+    "additions": []
+}

@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Account\Default.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Account\Default.html" />
+  <event action="Analyze" type="Success" name="Default.html" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Account\Default.html" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Account\Login.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Account\Login.aspx" />
+  <event action="Analyze" type="Success" name="Login.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Account\Login.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\App.config" />
+  <event action="Analyze" type="Success" name="Binary References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="CLB_Training.dll.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Telerik.ReportViewer.WebForms.Resources.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Bin\Telerik.ReportViewer.WebForms.Resources.resx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\DataTablesMedia\example.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\DataTablesMedia\example.html" />
+  <event action="Analyze" type="Success" name="example.html" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\DataTablesMedia\example.html" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\OpenFile.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\OpenFile.aspx" />
+  <event action="Analyze" type="Success" name="OpenFile.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\OpenFile.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupGEN8file.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupGEN8file.aspx" />
+  <event action="Analyze" type="Success" name="PopupGEN8file.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupGEN8file.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupHistory_ProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupHistory_ProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="PopupHistory_ProcessFyFp.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupHistory_ProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupQualification.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupQualification.aspx" />
+  <event action="Analyze" type="Success" name="PopupQualification.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupQualification.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupVt.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupVt.aspx" />
+  <event action="Analyze" type="Success" name="PopupVt.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupVt.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupVtTopic.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupVtTopic.aspx" />
+  <event action="Analyze" type="Success" name="PopupVtTopic.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\PopupVtTopic.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchCert.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchCert.aspx" />
+  <event action="Analyze" type="Success" name="SearchCert.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchCert.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchCourse.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchCourse.aspx" />
+  <event action="Analyze" type="Success" name="SearchCourse.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchCourse.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchFrm.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchFrm.aspx" />
+  <event action="Analyze" type="Success" name="SearchFrm.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchFrm.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchPerson1.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchPerson1.aspx" />
+  <event action="Analyze" type="Success" name="SearchPerson1.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchPerson1.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchTraining.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchTraining.aspx" />
+  <event action="Analyze" type="Success" name="SearchTraining.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\SearchTraining.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\PopupSetting.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\PopupSetting.aspx" />
+  <event action="Analyze" type="Success" name="PopupSetting.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\PopupSetting.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\PopupTransfer.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\PopupTransfer.aspx" />
+  <event action="Analyze" type="Success" name="PopupTransfer.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\PopupTransfer.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\WebTransferDatabase.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\WebTransferDatabase.aspx" />
+  <event action="Analyze" type="Success" name="WebTransferDatabase.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Setting\WebTransferDatabase.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Start.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Start.aspx" />
+  <event action="Analyze" type="Success" name="Start.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\Start.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\test.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\test.aspx" />
+  <event action="Analyze" type="Success" name="test.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\test.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebAfterTraining.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebAfterTraining.aspx" />
+  <event action="Analyze" type="Success" name="WebAfterTraining.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebAfterTraining.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebDocpath.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebDocpath.aspx" />
+  <event action="Analyze" type="Success" name="WebDocpath.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebDocpath.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebExpenses.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebExpenses.aspx" />
+  <event action="Analyze" type="Success" name="WebExpenses.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebExpenses.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebFrmEmployee.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebFrmEmployee.aspx" />
+  <event action="Analyze" type="Success" name="WebFrmEmployee.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebFrmEmployee.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebGENV8.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebGENV8.aspx" />
+  <event action="Analyze" type="Success" name="WebGENV8.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebGENV8.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="WebProcessFyFp.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebProcessST.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebProcessST.aspx" />
+  <event action="Analyze" type="Success" name="WebProcessST.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebProcessST.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchFrm.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchFrm.aspx" />
+  <event action="Analyze" type="Success" name="WebSearchFrm.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchFrm.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchPerson.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchPerson.aspx" />
+  <event action="Analyze" type="Success" name="WebSearchPerson.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchPerson.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchProfessor.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchProfessor.aspx" />
+  <event action="Analyze" type="Success" name="WebSearchProfessor.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchProfessor.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchRef.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchRef.aspx" />
+  <event action="Analyze" type="Success" name="WebSearchRef.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchRef.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchTest.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchTest.aspx" />
+  <event action="Analyze" type="Success" name="WebSearchTest.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebSearchTest.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebST2_Certificate.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebST2_Certificate.aspx" />
+  <event action="Analyze" type="Success" name="WebST2_Certificate.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebST2_Certificate.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebTrainingCourse.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebTrainingCourse.aspx" />
+  <event action="Analyze" type="Success" name="WebTrainingCourse.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebTrainingCourse.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebTrainingCourseDetail.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebTrainingCourseDetail.aspx" />
+  <event action="Analyze" type="Success" name="WebTrainingCourseDetail.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Form\WebTrainingCourseDetail.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\Master.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\Master.aspx" />
+  <event action="Analyze" type="Success" name="Master.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\Master.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterCourse.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterCourse.aspx" />
+  <event action="Analyze" type="Success" name="MasterCourse.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterCourse.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterExpenses.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterExpenses.aspx" />
+  <event action="Analyze" type="Success" name="MasterExpenses.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterExpenses.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterFileType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterFileType.aspx" />
+  <event action="Analyze" type="Success" name="MasterFileType.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterFileType.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterGroup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterGroup.aspx" />
+  <event action="Analyze" type="Success" name="MasterGroup.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterGroup.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterInstitue.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterInstitue.aspx" />
+  <event action="Analyze" type="Success" name="MasterInstitue.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterInstitue.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterOrganize.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterOrganize.aspx" />
+  <event action="Analyze" type="Success" name="MasterOrganize.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterOrganize.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterTopic22.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterTopic22.aspx" />
+  <event action="Analyze" type="Success" name="MasterTopic22.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterTopic22.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterTrainType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterTrainType.aspx" />
+  <event action="Analyze" type="Success" name="MasterTrainType.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterTrainType.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterType.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterType.aspx" />
+  <event action="Analyze" type="Success" name="MasterType.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterType.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterVt.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterVt.aspx" />
+  <event action="Analyze" type="Success" name="MasterVt.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Master\MasterVt.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Popup.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Popup.master" />
+  <event action="Analyze" type="Success" name="Popup.master" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Popup.master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\FilterFyfp.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\FilterFyfp.aspx" />
+  <event action="Analyze" type="Success" name="FilterFyfp.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\FilterFyfp.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\FilterSt.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\FilterSt.aspx" />
+  <event action="Analyze" type="Success" name="FilterSt.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\FilterSt.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\GroupReport.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\GroupReport.aspx" />
+  <event action="Analyze" type="Success" name="GroupReport.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\GroupReport.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PreviewFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PreviewFyFp.aspx" />
+  <event action="Analyze" type="Success" name="PreviewFyFp.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PreviewFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PreviewST.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PreviewST.aspx" />
+  <event action="Analyze" type="Success" name="PreviewST.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PreviewST.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintFyFp.aspx" />
+  <event action="Analyze" type="Success" name="PrintFyFp.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintReport.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintReport.aspx" />
+  <event action="Analyze" type="Success" name="PrintReport.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintReport.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintST.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintST.aspx" />
+  <event action="Analyze" type="Success" name="PrintST.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\PrintST.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\SearchPerson2.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\SearchPerson2.aspx" />
+  <event action="Analyze" type="Success" name="SearchPerson2.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\SearchPerson2.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\TrainManager.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\TrainManager.aspx" />
+  <event action="Analyze" type="Success" name="TrainManager.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\TrainManager.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebReportCustom.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebReportCustom.aspx" />
+  <event action="Analyze" type="Success" name="WebReportCustom.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebReportCustom.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebReportTime.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebReportTime.aspx" />
+  <event action="Analyze" type="Success" name="WebReportTime.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebReportTime.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebRptHistory_ProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebRptHistory_ProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="WebRptHistory_ProcessFyFp.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebRptHistory_ProcessFyFp.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebRptHistory_ProcessST.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebRptHistory_ProcessST.aspx" />
+  <event action="Analyze" type="Success" name="WebRptHistory_ProcessST.aspx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Report\WebRptHistory_ProcessST.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Site.master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Site.master" />
+  <event action="Analyze" type="Success" name="Site.master" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Site.master" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\UserControl\PersonDetail.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\UserControl\PersonDetail.ascx" />
+  <event action="Analyze" type="Success" name="PersonDetail.ascx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\UserControl\PersonDetail.ascx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\web.config" />
+  <event action="Analyze" type="Success" name="web.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Binary References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="CLB_Training.dll.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.vshost.exe.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.vshost.exe.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.vshost.exe.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.vshost.exe.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.vshost.exe.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.vshost.exe.config" />
+  <event action="Analyze" type="Success" name="CLB_Training.vshost.exe.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\CLB_Training.vshost.exe.config" />
+  <event action="Analyze" type="Success" name="Telerik.ReportViewer.WebForms.Resources.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Debug\Telerik.ReportViewer.WebForms.Resources.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Release\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Release\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Release\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Release\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Release\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Release\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="CLB_Training.dll.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\bin\Release\CLB_Training.dll.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\My Project\Resources.resx" />
+  <event action="Analyze" type="Success" name="Report1.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\Report1.resx" />
+  <event action="Analyze" type="Success" name="Report2.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\Report2.resx" />
+  <event action="Analyze" type="Success" name="RetgroupEco.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\RetgroupEco.resx" />
+  <event action="Analyze" type="Success" name="rpt_Alert1.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_Alert1.resx" />
+  <event action="Analyze" type="Success" name="rpt_Config_Course.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_Config_Course.resx" />
+  <event action="Analyze" type="Success" name="rpt_Config_Group.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_Config_Group.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp1.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp1.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_checkby.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_checkby.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_money.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_money.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_moneyPerEmp.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_moneyPerEmp.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_place.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_place.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_professor.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_professor.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_property.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_property.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_qualification.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_qualification.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_subject.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_subject.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_time.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_time.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_totalEmp.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_totalEmp.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_trainee.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_trainee.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_vut.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_vut.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21year.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21year.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp22.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp22.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp3.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp3.resx" />
+  <event action="Analyze" type="Success" name="rpt_IME1NU.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_IME1NU.resx" />
+  <event action="Analyze" type="Success" name="rpt_Nottrainyear.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_Nottrainyear.resx" />
+  <event action="Analyze" type="Success" name="rpt_PaternCourse.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_PaternCourse.resx" />
+  <event action="Analyze" type="Success" name="rpt_PaternpersonAbsen.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_PaternpersonAbsen.resx" />
+  <event action="Analyze" type="Success" name="rpt_ST21.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_ST21.resx" />
+  <event action="Analyze" type="Success" name="rpt_ST22.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_ST22.resx" />
+  <event action="Analyze" type="Success" name="rpt_ST2new.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_ST2new.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_IME1NU.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_IME1NU.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_professor.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_professor.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_TrainCourse.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_TrainCourse.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_TrainPerson.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_TrainPerson.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_yearNu2Stand.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_yearNu2Stand.resx" />
+  <event action="Analyze" type="Success" name="rpt_SumYear.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_SumYear.resx" />
+  <event action="Analyze" type="Success" name="rpt_TimeTAM_Holiday.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TimeTAM_Holiday.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_006_02.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_006_02.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_006_03.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_006_03.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_007_03.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_007_03.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_007_08.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_007_08.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_007_14.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_007_14.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_01.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_01.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_02.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_02.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_03.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_03.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_04.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_04.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_05.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_05.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_06.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_06.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_07.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_07.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_08.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_08.resx" />
+  <event action="Analyze" type="Success" name="rpt_TRN1_016.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TRN1_016.resx" />
+  <event action="Analyze" type="Success" name="rpt_yearNu2Stand.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_yearNu2Stand.resx" />
+  <event action="Analyze" type="Success" name="rpt_yearStand.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_yearStand.resx" />
+  <event action="Analyze" type="Success" name="rptpersonintrain.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rptpersonintrain.resx" />
+  <event action="Analyze" type="Success" name="rpt_007_03.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\Sub_Reports\rpt_007_03.resx" />
+  <event action="Analyze" type="Success" name="Test.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\Test.resx" />
+  <event action="Analyze" type="Success" name="D:\...\HRISTraining\" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\CLB_Training.vbproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\App.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\My Project\Resources.resx" />
+  <event action="Analyze" type="Success" name="Report1.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\Report1.resx" />
+  <event action="Analyze" type="Success" name="Report2.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\Report2.resx" />
+  <event action="Analyze" type="Success" name="RetgroupEco.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\RetgroupEco.resx" />
+  <event action="Analyze" type="Success" name="rpt_Alert1.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_Alert1.resx" />
+  <event action="Analyze" type="Success" name="rpt_Config_Course.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_Config_Course.resx" />
+  <event action="Analyze" type="Success" name="rpt_Config_Group.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_Config_Group.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp1.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp1.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_checkby.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_checkby.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_money.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_money.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_moneyPerEmp.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_moneyPerEmp.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_place.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_place.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_professor.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_professor.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_property.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_property.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_qualification.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_qualification.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_subject.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_subject.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_time.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_time.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_totalEmp.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_totalEmp.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_trainee.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_trainee.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21_sub_vut.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21_sub_vut.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp21year.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp21year.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp22.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp22.resx" />
+  <event action="Analyze" type="Success" name="rpt_FyFp3.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_FyFp3.resx" />
+  <event action="Analyze" type="Success" name="rpt_IME1NU.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_IME1NU.resx" />
+  <event action="Analyze" type="Success" name="rpt_Nottrainyear.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_Nottrainyear.resx" />
+  <event action="Analyze" type="Success" name="rpt_PaternCourse.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_PaternCourse.resx" />
+  <event action="Analyze" type="Success" name="rpt_PaternpersonAbsen.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_PaternpersonAbsen.resx" />
+  <event action="Analyze" type="Success" name="rpt_ST21.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_ST21.resx" />
+  <event action="Analyze" type="Success" name="rpt_ST22.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_ST22.resx" />
+  <event action="Analyze" type="Success" name="rpt_ST2new.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_ST2new.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_IME1NU.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_IME1NU.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_professor.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_professor.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_TrainCourse.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_TrainCourse.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_TrainPerson.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_TrainPerson.resx" />
+  <event action="Analyze" type="Success" name="rpt_sub_yearNu2Stand.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_sub_yearNu2Stand.resx" />
+  <event action="Analyze" type="Success" name="rpt_SumYear.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_SumYear.resx" />
+  <event action="Analyze" type="Success" name="rpt_TimeTAM_Holiday.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TimeTAM_Holiday.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_006_02.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_006_02.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_006_03.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_006_03.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_007_03.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_007_03.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_007_08.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_007_08.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_007_14.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_007_14.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_01.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_01.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_02.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_02.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_03.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_03.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_04.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_04.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_05.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_05.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_06.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_06.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_07.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_07.resx" />
+  <event action="Analyze" type="Success" name="rpt_TNR1_026_08.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TNR1_026_08.resx" />
+  <event action="Analyze" type="Success" name="rpt_TRN1_016.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_TRN1_016.resx" />
+  <event action="Analyze" type="Success" name="rpt_yearNu2Stand.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_yearNu2Stand.resx" />
+  <event action="Analyze" type="Success" name="rpt_yearStand.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rpt_yearStand.resx" />
+  <event action="Analyze" type="Success" name="rptpersonintrain.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\rptpersonintrain.resx" />
+  <event action="Analyze" type="Success" name="rpt_007_03.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\Sub_Reports\rpt_007_03.resx" />
+  <event action="Analyze" type="Success" name="Test.resx" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\Report\Test.resx" />
+  <event action="Analyze" type="Success" name="CLB_Training" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebReport_Training\CLB_Training\CLB_Training.vbproj" />
+  <event action="Analyze" type="Success" name="WebTraining" path="D:\THANADECH.M\10-11-2021\ALL\HRIS_TNN\HRIS_TRINING\20210524EDIT\HRISTraining\WebTraining.sln" />
+</log>

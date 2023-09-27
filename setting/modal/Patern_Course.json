@@ -1,0 +1,111 @@
+{
+    "name": "Patern_Course",
+    "tableTo": "TNT_Patern_Course",
+    "tableFor": "TN_Patern__Course",
+    "typeColumn": "GUID",
+    "columnTo": {
+        "name": "GUID_Patern",
+        "type": "GUID"
+    },
+    "columnFor": {
+        "name": "Patern_ID",
+        "type": "Decimal"
+    },
+    "foreigns": [
+        {
+            "column": "Course_ID",
+            "columnTo": "GUID_Course",
+            "refer": "Mdl_Course",
+            "Type": "GUID"
+        },
+        {
+            "column": "Group_ID",
+            "columnTo": "GUID_Group",
+            "refer": "Mdl_GroupCourse",
+            "type": "GUID"
+        },
+        {
+            "column": "InstitueTrainID",
+            "columnTo": "GUID_Institue",
+            "refer": "Mdl_InstitueTrain",
+            "type": "GUID"
+        },
+        {
+            "column": "Type_CourseID",
+            "columnTo": "GUID_Type",
+            "refer": "Mdl_TypeCourse",
+            "Type": "GUID"
+        },
+        {
+            "column": "TN_Type_PaternID",
+            "columnTo": "GUID_Type_Patern",
+            "refer": "Mdl_Type",
+            "type": "GUID"
+        },
+        {
+            "column": "Organize_ID",
+            "columnTo": "GUID_Organize",
+            "refer": "Mdl_Organize",
+            "Type": "GUID"
+        }
+    ],
+  "matchings": [
+    {
+      "column": "Patern_Name",
+      "columnTo": "Patern_NameT",
+      "option": {
+        "duplicate": true
+      }
+    },
+    {
+      "column": "Patern_Code",
+      "columnTo": "Patern_Code",
+      "option": {
+        "duplicate": true
+      }
+    },
+    {
+      "column": "Patern_ID",
+      "option": {
+        "duplicate": false
+      }
+    }
+  ],
+  "entraps": [
+    "Patern_Name",
+    "Patern_NameE",
+    "Patern_Code",
+    "Patern_ID"
+  ],
+    "transections": [
+        {
+            "column": "Patern_ID",
+            "columnTo": "GUID_Train",
+            "ColumnSend": "GUID_Patern",
+            "refer": "Mdl_TrainDay",
+            "Type": "KeyToForeign"
+        },
+        {
+            "column": "Patern_ID",
+            "columnTo": "GUID_Ref",
+            "ColumnSend": "Patern_ID",
+            "refer": "Mdl_PaternRef",
+            "Type": "CopyToInsert"
+        },
+        {
+            "column": "Patern_ID",
+            "columnTo": "GUID_PaternPro",
+            "ColumnSend": "GUID_Patern",
+            "refer": "Mdl_transection_Professor",
+            "Type": "KeyToForeign"
+        },
+        {
+            "column": "Patern_ID",
+            "columnTo": "",
+            "ColumnSend": "GUID_Patern",
+            "refer": "Mdl_TrainPersonEvaluation",
+            "Type": "KeyToForeign"
+        }
+    ],
+    "additions": []
+}

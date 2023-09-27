@@ -1,0 +1,850 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <match_TN_Patern__Course>
+    <P_ID>1</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_ID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>2</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Date</old_col>
+    <old_type>datetime</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>3</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_End</old_col>
+    <old_type>datetime</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>4</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Name</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>5</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_N</old_col>
+    <old_type>int</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>6</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Point</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>7</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_PointPass</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>8</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Reason</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>9</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Budget</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>10</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Hour</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>11</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Time</old_col>
+    <old_type>datetime</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>12</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_EndTime</old_col>
+    <old_type>datetime</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>13</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Course_ID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>14</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Code</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>15</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_Datealarm</old_col>
+    <old_type>datetime</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>16</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Type_CourseID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>17</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Organize_ID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>18</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>InstitueTrainID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>19</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Group_ID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>20</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_NameE</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>21</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>TN_Type_PaternID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>22</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>CompanyID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>23</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Trainstatus</old_col>
+    <old_type>bit</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>24</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Tmp_PersonID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>25</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Patern_descrition</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>26</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>c</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>27</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>daywrite</old_col>
+    <old_type>datetime</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>28</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>writeby</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>29</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Trainpasspoint</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>30</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Checkby</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>31</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Stastusposi</old_col>
+    <old_type>bit</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>32</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>writeby6</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>33</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>writeby7</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>34</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>writeby8</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>35</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Checkbyposi</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>36</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>pergg</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>37</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>showweb</old_col>
+    <old_type>bit</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>38</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Ftfy1</old_col>
+    <old_type>bit</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>39</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Ftfy2</old_col>
+    <old_type>bit</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>40</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>F12</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>41</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b1</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>42</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b2</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>43</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b3</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>44</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b4</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>45</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b5</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>46</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b6</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>47</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b7</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>48</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b8</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>49</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b9</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>50</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b10</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>51</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b11</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>52</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b12</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>53</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b13</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>54</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b14</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>55</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b15</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>56</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b16</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>57</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b17</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>58</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>b18</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>59</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>bid</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>60</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Chkretrain</old_col>
+    <old_type>bit</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>61</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>reday</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>62</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>redate</old_col>
+    <old_type>datetime</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>63</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>mixsee</old_col>
+    <old_type>bit</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>64</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Lasttraindate</old_col>
+    <old_type>datetime</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>65</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Lasttrain</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>66</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Rnum</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>67</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>host_orga</old_col>
+    <old_type>float</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>68</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>patern_codeold</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>69</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>HRcancelcret</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>70</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>TRanferdel</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>71</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>Cignaselect</old_col>
+    <old_type>bit</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>72</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>PrePointLAB</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>73</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>PrePoint</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>74</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>PostPointLAB</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>75</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>PostPoint</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>76</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>CignaPassPoint</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+  <match_TN_Patern__Course>
+    <P_ID>77</P_ID>
+    <old_table>TN_Patern__Course</old_table>
+    <old_col>CignaPassPointpost</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Patern__Course>
+</NewDataSet>

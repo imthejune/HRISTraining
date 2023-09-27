@@ -1,0 +1,210 @@
+<%@ Master Language="VB" CodeFile="Popup.master.vb" Inherits="Popup" %>
+<%@ Register Namespace="Telerik.QuickStart" TagPrefix="qsf" %> 
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-874" />
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/custom.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="Image/icon/time_attendance_small_NAr_icon.ico" />
+    <%--  <link href="~/Styles/sf.css" rel="stylesheet" type="text/css" />--%>
+    <%--<link href="~/themes/redmond/jquery-ui.min.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-ui.js" type="text/javascript"></script>--%>
+
+    <title></title>
+
+    <script type="text/javascript">
+
+
+        function changeEditor(sender, args) {
+            var RGrid = GetRadGrid();
+            var batchManager = RGrid.get_batchEditingManager();
+            RGrid.get_batchEditingManager().openCellForEdit(sender.parentElement.parentElement);
+            sender.checked = !sender.checked;
+        }
+
+        function changeEditorAll(sender, args, colName, ctrlName) {
+            var RGrid = GetRadGrid();
+            if (RGrid.get_masterTableView().get_dataItems().length > 0) {
+                if (colName == null) colName = "SelectItem";
+                if (ctrlName == null) ctrlName = "chkDeleteE";
+                var checkID = new Array();
+                var roundCHK = 0;
+                for (rowID = 0; rowID < RGrid.get_masterTableView().get_dataItems().length; rowID++) {
+                    var firstItem = RGrid.get_masterTableView().get_dataItems()[rowID];
+                    var cell = firstItem.get_cell(colName);
+                    RGrid.get_batchEditingManager().openCellForEdit(cell);
+
+                    if (firstItem.findElement(ctrlName) != null) {
+                        firstItem.findElement(ctrlName).checked = sender.checked;
+                    }
+
+                }
+            }
+        }
+
+        function OnClientClose(oWnd, name) {
+            window.location.reload();
+        }
+
+        function SetToolsBar(toolBar, Insert, Edit, Delete, Save, Cancel, Search, Prev, Next, Exit) {
+            var buttonInsert = toolBar.findButtonByCommandName("Insert");
+            var buttonEdit = toolBar.findButtonByCommandName("Edit");
+            var buttonDelete = toolBar.findButtonByCommandName("Delete");
+            var buttonSave = toolBar.findButtonByCommandName("Save");
+            var buttonCancel = toolBar.findButtonByCommandName("Cancel");
+            var buttonSearch = toolBar.findButtonByCommandName("Search");
+            var buttonPrev = toolBar.findButtonByCommandName("Prev");
+            var buttonNext = toolBar.findButtonByCommandName("Next");
+            var buttonExit = toolBar.findButtonByCommandName("Exit");
+
+            if (Insert == 0) buttonInsert.disable(); else buttonInsert.enable();
+            if (Edit == 0) buttonEdit.disable(); else buttonEdit.enable();
+            if (Delete == 0) buttonDelete.disable(); else buttonDelete.enable();
+            if (Save == 0) buttonSave.disable(); else buttonSave.enable();
+            if (Cancel == 0) buttonCancel.disable(); else buttonCancel.enable();
+            if (Search == 0) buttonSearch.disable(); else buttonSearch.enable();
+            if (Prev == 0) buttonPrev.disable(); else buttonPrev.enable();
+            if (Next == 0) buttonNext.disable(); else buttonNext.enable();
+            if (Exit == 0) buttonExit.disable(); else buttonExit.enable();
+        }
+
+        function SetCtrlValue(container, name, type, txt, val) {
+            if (container != null) {
+                switch (type) {
+                    case "Hidden":
+                        if ($telerik.findElement(container, name) != null) {
+                            if (txt != null) $telerik.findElement(container, name).value = txt;
+                        }
+                        break;
+                    case "Html":
+                        if ($telerik.findElement(container, name) != null) {
+                            if (txt != null) $telerik.findElement(container, name).innerHTML = txt;
+                        }
+                        break;
+                    case "ECheckbox":
+                        if ($telerik.findElement(container, name) != null) {
+                            if (txt != null) $telerik.findElement(container, name).checked = txt;
+                        }
+                        break;
+                    case "ECombo":
+                        if ($telerik.findElement(container, name) != null) {
+                            if (val != null) $telerik.findControl(container, name).set_value(val);
+                            if (txt != null) $telerik.findControl(container, name).set_text(txt);
+                        }
+                        break;
+                    case "EText":
+                        if ($telerik.findElement(container, name) != null) {
+                            if (txt != null) {
+                                if ($telerik.findControl(container, name) != null) {
+                                    $telerik.findControl(container, name).set_value(txt);
+                                }
+                                else {
+                                    $telerik.findElement(container, name).value = txt
+                                }
+                            }
+                        }
+                        break;
+                }
+            }
+        }
+
+
+        function MyClientBlur(sender, eventArgs) {
+            sender.requestItems("", false);
+        }
+
+    </script>
+    <style type="text/css">
+        a.rmLink {
+            cursor: pointer !important;
+        }
+
+       img {
+            border: none;
+        }
+
+        .RadSplitter {
+            font-family: Tahoma,Arial, sans-serif !important;
+        }
+
+        .RadMenu, .RadMenu a.rmLink {
+            font-family: Tahoma,Arial, sans-serif !important;
+        }
+
+        .RadCombobox, .rcbInput {
+            font-family: Tahoma,Arial, sans-serif !important;
+        }
+
+        .RadGrid .rgMasterTable, .RadGrid .rgDetailTable {
+            font-family: Tahoma,Arial, sans-serif !important;
+        }
+
+        .RadMenu .rmRootGroup {
+            background: Transparent !important;
+            border: none !important;
+        }
+
+        .RadMenu .rmVertical .rmText, .RadMenu a.rmLink {
+            /*background-image: none !important;*/
+            color: black !important;
+        }
+
+        .divPlaceHolder {
+             border: 2px solid #496077; 
+             height: 535px
+        }
+
+        .page {
+             margin: 1px 0px 0px 0px !important;
+        }
+
+        .ui-h1{height:25px;background-color:#fc3;text-align:center;border:solid 1px #f60;vertical-align:middle;font-size:12pt;font-weight:bold}
+        .ui-h3{border:double 3px #cccc99;width:100%;color:navy;font-weight:bold;}
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager ID="QsfScriptManager" runat="server" AsyncPostBackTimeout="720000">
+            <Scripts>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js"></asp:ScriptReference>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js"></asp:ScriptReference>
+            </Scripts>
+        </telerik:RadScriptManager>
+
+ 
+       <%-- <script src='<%= ResolveUrl("~/Common/Scripts/qsf-scripts.js")%>' type="text/javascript"></script>--%>
+        <script src='<%= ResolveUrl("~/Scripts/JavaScriptRadWindowManager.js")%>' type="text/javascript"></script>
+     <%--   <script src='<%= ResolveUrl("~/Scripts/jquery-1.10.2.js")%>' type="text/javascript"></script>
+        <script src='<%= ResolveUrl("~/Scripts/jquery-ui.js")%>' type="text/javascript"></script>--%>
+
+        <script src='<%= ResolveUrl("~/Scripts/jquery-ui-1.10.3.custom.js")%>'   type="text/javascript"></script>
+        <link href='<%= ResolveUrl("~/themes/redmond/jquery-ui.min.css")%>' rel="stylesheet" />
+        <script src='<%= ResolveUrl("~/Scripts/java.js")%>' type="text/javascript"></script>
+
+        <div class="page2">
+            <div class="color2" >
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+
+
+        <telerik:RadWindowManager ID="RadWindowManager1" runat="server"   EnableViewState="false"    VisibleStatusbar="false" Skin="Office2010Blue">
+            <Windows>
+                <telerik:RadWindow ID="RadWindow1" runat="server" Title="" ShowContentDuringLoad="false"  EnableShadow="false" Height="204px" Width="176px"  Modal="true">
+                </telerik:RadWindow>
+            </Windows>
+        </telerik:RadWindowManager>
+    </form>
+</body>
+</html>

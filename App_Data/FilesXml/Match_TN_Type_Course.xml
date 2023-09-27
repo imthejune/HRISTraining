@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <match_TN_Type_Course>
+    <P_ID>1</P_ID>
+    <old_table>TN_Type_Course</old_table>
+    <old_col>Type_CourseID</old_col>
+    <old_type>numeric</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Type_Course>
+  <match_TN_Type_Course>
+    <P_ID>2</P_ID>
+    <old_table>TN_Type_Course</old_table>
+    <old_col>Type_CourseNameT</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Type_Course>
+  <match_TN_Type_Course>
+    <P_ID>3</P_ID>
+    <old_table>TN_Type_Course</old_table>
+    <old_col>Type_CourseNameE</old_col>
+    <old_type>varchar</old_type>
+    <new_table />
+    <new_col />
+    <new_type />
+    <default_value />
+    <status>0</status>
+  </match_TN_Type_Course>
+</NewDataSet>

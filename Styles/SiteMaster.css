@@ -1,0 +1,39 @@
+﻿body
+{
+    background: #FFFFFF;
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px; 
+    
+}
+
+.Button1
+{
+    border: solid 1px #f60;
+    background-color: #1c8ed9;
+    text-align: center;
+}
+
+.Button
+{
+    border:solid 1px #039;
+    background-color:#9cf;
+    text-align: center;
+    
+}
+
+/*Button:hover{ 
+
+background: #CEE7FF; 
+
+} */
+
+
+
+  /*  .Button2
+{
+    border-color: #888888;
+    background-color: #888888;
+    color: #FFFFFF;
+}*/

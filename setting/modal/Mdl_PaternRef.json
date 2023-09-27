@@ -1,0 +1,67 @@
+{
+    "name":"Mdl_PaternRef",
+    "tableTo": "TNM_Patern_ReF",
+    "tableFor": "TN_Patern__Course",
+    "searchColumn":"Patern_ID",
+    "typeColumn":"GUID",
+    "columnTo": {
+        "name":"GUID_Ref",
+        "type":"GUID"
+    },
+    "columnFor" : {
+        "name":"Patern_ID",
+        "type":"Decimal"
+    },
+    "foreigns":[
+        {
+            "column": "Course_ID",
+            "columnTo": "GUID_Course",
+            "refer": "Mdl_Course",
+            "Type": "GUID"
+        }
+    ],
+    "matchings":[
+        {
+            "column": "Patern_Code",
+            "columnTo": "PaternRef_Code",
+            "option": {
+                "duplicate":false,
+                "NotEmpty": true
+            }
+        },
+        {
+            "column": "Patern_Name",
+            "columnTo": "PaternRef_NameT",
+            "option": {
+                "duplicate":true
+            }
+        },
+        {
+            "column": "Patern_NameE",
+            "columnTo": "PaternRef_NameE",
+            "option": {
+                "duplicate":true
+            }
+        },
+
+        {
+            "column":"PaternRef_ID",
+            "option": {
+                "duplicate":false
+            }
+        }
+    ],
+    "entraps":[
+        "PaternRef_ID"
+    ],
+    "additions": [
+        {
+            "column":"Patern_Code",
+            "columnTo":"PaternRef_Code"
+        },
+        {
+            "column":"Patern_Name",
+            "columnTo":"PaternRef_NameT"
+        }
+    ]
+}

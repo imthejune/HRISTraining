@@ -1,0 +1,35 @@
+{
+
+    "name":"Mdl_InstitueTrain",
+    "tableTo": "TNM_InstitueTrain",
+    "tableFor": "TN_InstitueTrain",
+    "typeColumn":"GUID",
+    "columnTo": {
+        "name":"GUID_Institue",
+        "type":"GUID"
+    },
+    "columnFor" : {
+        "name":"InstitueTrainID",
+        "type":"Decimal"
+    },
+    "foreigns":[
+    ],
+    "matchings":[
+        
+        {
+            "column":"InstitueTrainID",
+            "option": {
+                "duplicate":false
+            }
+        }
+    ],
+    "entraps":[
+        "InstitueTrainID"
+    ],
+    "additions": [
+        {
+            "column":"InstitueTrainNameT",
+            "columnTo":"InstitueTrainNameT"
+        }
+    ]
+}

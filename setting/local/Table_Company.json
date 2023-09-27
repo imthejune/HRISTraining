@@ -1,0 +1,281 @@
+[
+    {
+        "keyuuid": "b5692dea",
+        "table": "COM_Company",
+        "column": [
+            {
+                "Order": 1,
+                "Name": "ID_Company",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 18,
+                "DateTime": null,
+                "Able": false,
+                "Scale": null
+            },
+            {
+                "Order": 2,
+                "Name": "Company_Code",
+                "Type": "varchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 3,
+                "Name": "Company_NameT",
+                "Type": "varchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 4,
+                "Name": "Company_NameE",
+                "Type": "varchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 5,
+                "Name": "Company_NameO",
+                "Type": "varchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 6,
+                "Name": "Company_Add",
+                "Type": "varchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 7,
+                "Name": "Company_Soi",
+                "Type": "varchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 8,
+                "Name": "Company_Stree",
+                "Type": "varchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 9,
+                "Name": "Company_District",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 10,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 10,
+                "Name": "Company_Amphur",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 10,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 11,
+                "Name": "Company_Province",
+                "Type": "numeric",
+                "Character": null,
+                "Numeric": 10,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 12,
+                "Name": "Company_PostalCode",
+                "Type": "varchar",
+                "Character": 10,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 13,
+                "Name": "Company_Email",
+                "Type": "varchar",
+                "Character": 100,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 14,
+                "Name": "Company_Tel",
+                "Type": "varchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 15,
+                "Name": "Company_Fax",
+                "Type": "varchar",
+                "Character": 200,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 16,
+                "Name": "Company_Memo",
+                "Type": "text",
+                "Character": 2147483647,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 17,
+                "Name": "Logo_Pic",
+                "Type": "image",
+                "Character": 2147483647,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 18,
+                "Name": "Company_SSFID",
+                "Type": "varchar",
+                "Character": 20,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 19,
+                "Name": "TN_con",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 20,
+                "Name": "SetupPR",
+                "Type": "varchar",
+                "Character": 50,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 21,
+                "Name": "BankPath",
+                "Type": "varchar",
+                "Character": 250,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 22,
+                "Name": "BankShow",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 23,
+                "Name": "ChkSendPersonToFingerScan",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 24,
+                "Name": "Emp_Limit",
+                "Type": "int",
+                "Character": null,
+                "Numeric": 10,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 25,
+                "Name": "CodeCom_Wingspan",
+                "Type": "varchar",
+                "Character": 3,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 26,
+                "Name": "sortno",
+                "Type": "int",
+                "Character": null,
+                "Numeric": 10,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            },
+            {
+                "Order": 27,
+                "Name": "BankEdit",
+                "Type": "bit",
+                "Character": null,
+                "Numeric": null,
+                "DateTime": null,
+                "Able": true,
+                "Scale": null
+            }
+        ],
+        "primary": [
+            "ID_Company"
+        ]
+    }
+]

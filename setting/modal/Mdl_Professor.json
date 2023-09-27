@@ -1,0 +1,37 @@
+{
+    "name":"Mdl_Professor",
+    "tableTo": "TNM_Professor",
+    "tableFor": "TN_Professor",
+    "typeColumn":"GUID",
+    "columnTo": {
+        "name":"GUID_Professor",
+        "type":"GUID"
+    },
+    "columnFor" : {
+        "name":"Professor_ID",
+        "type":"Decimal"
+    },
+    "foreigns":[
+    ],
+    "matchings":[
+        {
+            "column": "Professor_ID",
+            "option": {
+                "duplicate": false
+            }
+        }
+    ],
+    "entraps":[
+        "Professor_ID"
+    ],
+    "additions": [
+        {
+            "column":"Professor_Code",
+            "columnTo":"Professor_Code"
+        },
+        {
+            "column":"Professor_NameT",
+            "columnTo":"Professor_NameT"
+        }
+    ]
+}

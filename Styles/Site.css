@@ -1,0 +1,746 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body {
+    background-position: left top;
+    background: #b6b7bc;
+    font-size: 12px;
+    font-family: Tahoma,Arial, sans-serif;
+    text-shadow : 0px 0px 0px black;  /*ทำให้ font ดำขึ้น*/
+    margin: 0px;
+    padding: 0px;
+}
+
+A {
+    COLOR: #039;
+    text-decoration: none;
+}
+
+
+    a:link, a:visited {
+        color: #034af3;
+    }
+
+    a:hover {
+        color: #1d60ff;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: #034af3;
+    }
+
+.curpage, .setborder {
+    padding: 0px 2px;
+    border: chocolate 1px outset;
+    text-align: center;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: normal;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 214px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2 {
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page {
+    width: auto;
+    background-color: #fff;
+    overflow: visible;
+    margin: 1px 5px 0px 5px;
+    border: 1px solid #496077;
+    /*min-height: 450px;*/
+}
+
+
+.page2
+{
+    width: auto;
+    background-color: #fff;
+    overflow: visible;
+}
+
+.header {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+    top: 0px;
+    /*left: 1px;*/
+    height: 50px;
+    /*background-image: url('../Image/top menu_time attendance2.png');*/
+    background-image: url('../Image/top menu_training.png');
+    
+}
+
+    .header h1 {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        font-weight: 700;
+        margin: 0px;
+        padding: 0px 0px 0px 10px;
+        color: #3a4f63;
+        line-height: 20px;
+        font-size: 20px;
+        width: 879px;
+    }
+
+.main {
+    /*padding: 0px 1px 0px 1px;
+    margin: 1px 1px 1px 1px;  
+    height:100%;*/
+}
+
+.leftCol {
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+/*.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+    height: 15px;
+    background-color: #4e5766;
+}*/
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink {
+    background-color: #3a4f63;
+    width: 100%;
+}
+
+div.menu {
+    padding: 4px 0px 4px 8px;
+}
+
+    div.menu ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+
+        div.menu ul li a, div.menu ul li a:visited {
+            background-color: #465c71;
+            border: 1px #4e667d solid;
+            color: #dde4ec;
+            display: block;
+            line-height: 1.35em;
+            padding: 4px 20px;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+            div.menu ul li a:hover {
+                background-color: #bfcbd6;
+                color: #465c71;
+                text-decoration: none;
+            }
+
+            div.menu ul li a:active {
+                background-color: #465c71;
+                color: #cfdbe6;
+                text-decoration: none;
+            }
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset {
+    /*margin: 5px 0px;*/
+    padding: 1px;
+    border: 1px solid #ccc;
+    /*height: 144px;*/
+}
+
+    fieldset p {
+        margin: 2px 12px 10px 10px;
+    }
+
+    fieldset.login label, fieldset.register label, fieldset.changePassword label {
+        display: block;
+    }
+
+    fieldset label.inline {
+        display: inline;
+    }
+
+legend {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+    width: auto;
+}
+
+input.textEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo {
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear {
+    clear: both;
+}
+
+.title {
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+    height: 30px;
+    padding-top:5px;
+    padding-left:225px;
+    border: 0px;
+    border-color:red;
+    border-style:solid;
+}
+
+.loginDisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color: White;
+    height: 32px;
+}
+
+    .loginDisplay a:link {
+        color: white;
+    }
+
+    .loginDisplay a:visited {
+        color: white;
+    }
+
+    .loginDisplay a:hover {
+        color: white;
+    }
+
+.failureNotification {
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.submitButton {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#templatemo_footer_wrapper {
+    clear: both;
+    width: 100%;
+    background: #062a44;
+}
+
+#templatemo_footer {
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    color: #84b2d3;
+    background: url('../Image/templatemo_footer.jpg') no-repeat center top;
+    font-size: 11px;
+}
+
+    #templatemo_footer a {
+        color: #84b2d3;
+        font-weight: normal;
+    }
+
+        #templatemo_footer a:hover {
+            color: #FFFFFF;
+        }
+
+#inner {
+    width: 552px;
+    background: red;
+    height: 468px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+}
+
+#toolbar INPUT.cls_op {
+    padding-left: 18px;
+    background-image: url('../Image/add.png');
+    float: left;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+    height: 54px;
+    width: 134px;
+    margin-bottom: 18px;
+}
+
+a.more {
+    clear: both;
+    display: block;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    background: url('../Image/templatemo_more.jpg');
+    background-repeat: no-repeat;
+}
+
+.footer {
+    color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    line-height: normal;
+    background-color: #4e5766;
+    height: 20px;
+    /*border:1px;*/
+} 
+
+
+/*********เพิ่มมาใหม่************/
+/*20150817 เกี่ยวกับ Font Textbox Grid Combobox และอื่น*/
+
+a.rmLink {
+  cursor: pointer !important;
+}
+
+ img {
+  border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width: 16px;
+}
+
+.RadTreeView, .RadComboBoxDropDown {
+            cursor: pointer !important;
+        }
+
+.RadTreeView .rtIn {
+            vertical-align: middle !important;
+        }
+/*Size Default จาก Tool Telerik อยู่ที่ 12px*/
+/*.RadSplitter {
+  font-family: Tahoma,Arial, sans-serif !important;
+}
+
+.RadMenu, .RadMenu a.rmLink {
+  font-family: Tahoma,Arial, sans-serif !important;
+}
+
+.RadCombobox, .rcbInput {
+  font-family: Tahoma,Arial, sans-serif !important;
+}
+
+.RadGrid .rgMasterTable, .RadGrid .rgDetailTable {
+  font-family: Tahoma,Arial, sans-serif !important;
+}*/
+
+     /*.RadGrid .rgMasterTable, .RadGrid .rgDetailTable, .RadGrid .rgGroupPanel table, .RadGrid .rgCommandRow table, .RadGrid .rgEditForm table, .RadGrid .rgPager table{
+         font:normal 12px Tahoma, Arial, sans-serif !important;
+
+     }*/
+        
+        .RadWindow .rwDialogPopup,
+        .rfdTextbox.RadForm input[type='text'].rfdDecorated, .rfdTextbox.RadForm input[type='password'].rfdDecorated, .rfdTextarea.RadForm textarea, .rfdTextarea.RadForm textarea[disabled].rfdDecorated:hover, .rfdTextbox.RadForm input[disabled][type='text'].rfdDecorated:hover, .rfdTextbox.RadForm input[disabled][type='password'].rfdDecorated:hover, .rfdLabel.RadForm label, .RadForm .rfdDecorated, .RadForm .rfdCheckboxChecked, .RadForm .rfdCheckboxChecked.rfdInputDisabled:hover, .RadForm .rfdCheckboxUnchecked, .RadForm .rfdCheckboxUnchecked.rfdInputDisabled:hover, .rfdLabel.RadForm .rfdAspLabel, .RadForm .rfdRadioUnchecked, .RadForm .rfdRadioUnchecked.rfdInputDisabled:hover, .RadForm .rfdRadioUnchecked:hover, .RadForm .rfdRadioChecked, .RadForm .rfdRadioChecked.rfdInputDisabled:hover, .RadForm .rfdRadioChecked:hover, .RadForm .riTextBox, .RadForm .rfdValidationSummaryControl, .RadForm .rfdLoginControl, .rfdFieldset.RadForm legend,
+        .rfdTextbox.RadForm,
+        .rfdSelectBox,
+        .RadForm .rfdSelect,
+
+        .RadComboBoxDropDown,
+        .RadListBox,
+        .RadSplitter,
+        .RadWindow table.rwTitlebarControls em,
+        .RadMenu, .RadMenu a.rmLink,
+        .RadCombobox, .rcbInput,
+        .RadTreeView, .RadTreeView a.rtIn, .RadTreeView .rtEdit .rtIn input,
+        .RadGrid .rgMasterTable, .RadGrid .rgDetailTable, .RadGrid .rgGroupPanel table, .RadGrid .rgCommandRow table, .RadGrid .rgEditForm table, .RadGrid .rgPager table, .GridToolTip,
+        .RadTabStrip .rtsLI, .RadTabStrip .rtsLink,
+        .RadToolBar .rtbWrap, .RadToolBar .rtbTemplate {
+            font-family: Tahoma,Arial, sans-serif !important;           
+            font-size:12px !important;    
+        }
+
+        
+.RadMenu .rmRootGroup {
+    background: transparent !important;  /*transparent*/
+    border-left-style: none !important;
+    border-left-color: inherit !important;
+    border-left-width: medium;
+    border-right-style: none !important;
+    border-right-color: inherit !important;
+    border-right-width: medium;
+    border-top-style: none !important;
+    border-top-color: inherit !important;
+    border-top-width: medium;
+    border-bottom-style: none !important;
+    border-bottom-color: inherit !important;
+    border-bottom-width: medium;
+}
+
+/* Start เพิ่มใหม่ตอนพี่บัติให้ปรับ CSS*/ 
+
+/*20150817 END เกี่ยวกับ Font Textbox Grid Combobox และอื่น*/
+ input, textarea, keygen, select, button {
+    border-style: solid;
+    border-width: 1px;
+    font-family: Tahoma,Arial, sans-serif !important;
+    font-size: 12px !important; /*จำเป็นต้องใส่ขนาด*/ 
+    border-radius: 5px; /*ทำให้มน*/
+    border-color:inherit;
+    height: 19px;
+    background-color:white;
+    padding-left:5px;
+}
+
+
+
+ /* Textbox Telerik*/
+ html body .riSingle .riTextBox[type="text"] {
+    /*width: 174px;*/
+    border: 1px solid;
+    border-color:grey;
+    border-radius: 5px;
+    height: 21px;
+}
+
+
+ .PicTopTree {
+   width: 99%; 
+   height: 20px; 
+   background-color: #EEEEEE; 
+   background-image: url('../Image/custom/03top-footer/Top_W308xH20.png'); 
+   border: 1px solid #e0e5f5; 
+   -moz-box-shadow: inset 0 0 3px #888; 
+   -webkit-box-shadow: inset 0 0 3px #888; 
+   overflow: auto; 
+   text-align: center; 
+   padding-top: 2px;
+}
+
+  .PicFooterTree {
+   width: 99%; 
+   height: 19px; 
+   background-image: url('../Image/custom/03top-footer/Footer_W308xH19.png'); 
+   border-left: 1px solid #008B8B; 
+   border-right: 1px solid #008B8B; 
+   border-bottom: 1px solid #008B8B; 
+   -moz-box-shadow: inset 0 0 3px #888; 
+   -webkit-box-shadow: inset 0 0 3px #888; 
+   overflow: auto; 
+   text-align: center;
+}
+  .PicCenterTree {
+   width: 99%; 
+   /*height: 91.8%; */
+   border: 1px solid #008B8B; 
+   overflow: auto; 
+   background-color: #FFFFFF;
+}
+
+  .RadWindow .rwDialogPopup {
+    background-repeat: no-repeat !important;
+    background-image: url('../Image/Info.png') !important;
+}
+
+
+        /*พื้นหลัง*/
+        .color2 { 
+            
+            background-image: -webkit-linear-gradient( bottom right, #ffffff, #B85BDC);
+            background-image: -moz-linear-gradient( bottom right, #ffffff, #B85BDC);
+            background-image: -ms-linear-gradient( bottom right, #ffffff, #B85BDC);
+            background-image: -o-linear-gradient( bottom right, #ffffff, #B85BDC);
+            background-image: linear-gradient(to bottom right, #ffffff, #B85BDC);
+          /*
+                background-image: -webkit-linear-gradient( bottom right, #ffffff, #ffffff);
+            background-image: -moz-linear-gradient( bottom right, #ffffff, #ffffff);
+            background-image: -ms-linear-gradient( bottom right, #ffffff, #ffffff);
+            background-image: -o-linear-gradient( bottom right, #ffffff, #ffffff);
+            background-image: linear-gradient(to bottom right, #ffffff, #ffffff);*/
+        
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#B85BDC');/*For IE7-8-9*/ 
+            height: 1%;/*For IE7*/ 
+        }
+
+        /* End พื้นหลัง*/
+
+        .RadTabStrip .rtsOut, .RadTabStripVertical .rtsOut {
+            font-weight: bold; /*พี่บัติให้ทำ Tab ตัวหนา*/
+        }
+
+
+        /*** เกี่ยวกับปุ่ม ****/
+         [tabindex] {  /*ทำให้ตอนคลิกลิงค์ที่ปุ่มบน Chrome ไม่เป็นกล้องสีฟ้า*/
+            outline: none;
+        }
+
+         /*ปุ่มมาสเตอร์*/
+        .RadButton.rbLinkButton.css3Cont.rbDisabled {
+            opacity: .3;
+            filter: alpha(opacity=30);
+        }
+
+
+        .RadButton.rbLinkButton.css3Cont {
+            color: White !important;
+            background: #c3d9ff;
+            background-image: url('../Image/custom/02master/Master1.png');
+            background-repeat: no-repeat;
+            border: none;
+        }
+
+            .RadButton.rbLinkButton.css3Cont:hover, .RadButton.rbLinkButton.css3Cont:focus, .RadButton.rbLinkButton.css3Cont:active {
+                border: 0;
+                background-image: url('../Image/custom/02master/Master2.png');
+                color: black !important;
+                background-color: transparent;
+            }
+
+            /* End ปุ่มมาสเตอร์*/
+
+        
+        /*****ปุ่มค้นหา******/
+
+        .RadButton.rbLinkButton.css3ContSearch.rbDisabled {
+            opacity: .3;
+            filter: alpha(opacity=30);
+        }
+
+        .RadButton.rbLinkButton.css3ContSearch {
+            color: White !important;
+            background: #c3d9ff;
+            background-image: url('../Image/custom/04Search/Search1.png');
+            background-repeat: no-repeat;
+            border: none;
+        }
+
+            .RadButton.rbLinkButton.css3ContSearch:hover, .RadButton.rbLinkButton.css3ContSearch:focus, .RadButton.rbLinkButton.css3ContSearch:active {
+                border: 0;
+                background-image: url('../Image/custom/04Search/Search2.png');
+                color: black !important;
+                background-color: transparent;
+            }
+
+            /***** End ปุ่มค้นหา******/
+
+            /*****ปุ่มประวัติการเปลี่ยนชื่อ******/
+
+            .RadButton.rbLinkButton.css3ContChangeName.rbDisabled {
+            opacity: .3;
+            filter: alpha(opacity=30);
+        }
+
+        .RadButton.rbLinkButton.css3ContChangeName {
+            color: White !important;
+            background: #c3d9ff;
+            background-image: url('../Image/custom/07Change_Name/ChangeName1.png');
+            background-repeat: no-repeat;
+            border: none;
+        }
+
+            .RadButton.rbLinkButton.css3ContChangeName:hover, .RadButton.rbLinkButton.css3ContChangeName:focus, .RadButton.rbLinkButton.css3ContChangeName:active {
+                border: 0;
+                background-image: url('../Image/custom/07Change_Name/ChangeName2.png');
+                color: black !important;
+                background-color: transparent;
+            }
+
+            /***** END ปุ่มประวัติการเปลี่ยนชื่อ******/
+
+
+        /*****ปุ่มถ่ายรูป******/
+        .RadButton.rbLinkButton.css3ContCapture.rbDisabled {
+            opacity: .3;
+            filter: alpha(opacity=30);
+        }
+
+        .RadButton.rbLinkButton.css3ContCapture {
+            color: White !important;
+            background: #c3d9ff;
+            background-image: url('../Image/custom/05Camera/Camera1.png');
+            background-repeat: no-repeat;
+            border: none;
+        }
+
+            .RadButton.rbLinkButton.css3ContCapture:hover, .RadButton.rbLinkButton.css3ContCapture:focus, .RadButton.rbLinkButton.css3ContCapture:active {
+                border: 0;
+                background-image: url('../Image/custom/05Camera/Camera2.png');
+                color: black !important;
+                background-color: transparent;
+        }
+
+        /*****END ปุ่มถ่ายรูป******/
+
+
+        /*ทำให้ปุ่มเลือกไฟล์เป็นรูปภาพ*/
+        .RadUpload .ruBrowse {
+            background-image: url('../Image/custom/06Folder/Folder1.png') !important;
+            background-repeat: repeat-x !important;
+            background-position: 25px !important;
+            height: 25px !important;
+            width: 25px !important;
+
+
+              border-color: transparent ; 
+              background-color: transparent;
+        }
+        
+        /*ทำให้เม้าส์ชี้แล้วขึ้นเป็นรูปมือ*/
+        .RadUpload .ruFileInput,
+        .RadUpload .ruFakeInput,
+        .RadUpload .ruBrowse {
+            cursor: pointer !important;
+        }
+        /*ทำให้เม้าส์ชี้แล้วขึ้นเป็นรูปมือ*/
+
+       /*เปลี่ยนสีรูปเวลาเอาเม้าส์ชี้*/
+        .RadUpload .ruInputs li .ruButtonHover { 
+            background-image: url('../Image/custom/06Folder/Folder2.png') !important;
+        }
+        /*เปลี่ยนสีรูปเวลาเอาเม้าส์ชี้*/
+        /* End ทำให้ปุ่มเลือกไฟล์เป็นรูปภาพ*/
+
+
+/*ปุ๋ม button ธรรมดา*/
+
+    
+    /*ปุ๋ม button */
+    /*1.ปุ่มบันทึก,ตกลง ใช้ Width="65px" 2.ปุ่มโยนคนที่ Grid ใช้ Width="35px"*/
+
+    .buttonStandard{
+         Width:65px  !important;
+    }
+    .myButton1 {   
+        background-image: url('../Image/custom/01button/light/button1.png') !important;
+        border:1px solid #0f1d48 !important;
+        color:#1e189c;
+        background-repeat:repeat-x;
+        height:22px !important;
+    }
+
+    .myButton1:hover {
+	    background-image: url('../Image/custom/01button/dark/button1.png') !important;
+        height:22px !important;
+        border:1px solid #0f1d48 !important;
+        color:#fff;
+    }
+
+    .myButton2 {   
+       
+        border:1px solid #0f1d48 !important;
+        height:22px !important;
+    }
+
+/*End ปุ๋ม button ธรรมดา*/
+
+
+input[type=radio],input[type=checkbox]{
+    border: 0px solid;
+    border-color:none;
+    background-color:transparent !important;
+ }
+
+
+
+    /*Start Button คลุมทั้ง Project */
+    /*input[type="button" ], input[type="submit" ], input[type="reset" ], input[type="file" ] {
+    -moz-box-shadow:inset 0px 39px 0px -24px #6068f5;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #6068f5;
+	box-shadow:inset 0px 39px 0px -24px #6068f5;
+	background-color:#10249f;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid;
+    border-color:grey;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #10249f;
+    height:30px;
+    }
+
+input[type="button"]:hover, input[type="submit" ]:hover, input[type="reset" ]:hover, input[type="file" ]{
+    background-color:#888; 
+}*/
+/*เอาเมาส์ชี้แล้วเป็นอีกสี*/
+/*End Button คลุมทั้ง Project */
+
+  
+
+  
+
+  
+           
+
+

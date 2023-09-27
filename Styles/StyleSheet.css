@@ -1,0 +1,44 @@
+﻿.wrapper
+{
+	/*background: #ffedf2;*/
+	border: solid 1px #ffc6e3;
+	padding: 25px;
+	color: #e76bab;
+	font-size: 18px;
+	font-family: Arial;
+	float:left;
+}
+.inner {
+    /*background: white;*/
+    border: solid 1px #ffc6e3;
+    padding: 10px 20px 11px 15px;
+    float: left;
+} 
+
+.testClass
+{
+	margin: 5px;
+	display:block;
+	float:left;
+}
+
+.undoTestClass
+{
+	opacity: 0.2;
+	-moz-opacity: 0.2;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+}
+
+.title
+{
+	font-size: 12px;
+    /*display: block;*/
+    font-weight: bold;
+    color: #ff6fb9;
+}
+
+.info
+{
+    color: black;
+    font-size: 11px;
+}
